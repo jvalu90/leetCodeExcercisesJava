@@ -21,9 +21,15 @@ class Main {
     //System.out.println(solution1480.runningSum(new int[]{1, 1, 1, 1, 1}));
     
     //Solution 1108
-    Solution1108 solution1108 = new Solution1108();
-    System.out.println(solution1108.defangIPaddr("1.1.1.1"));
-    System.out.println(solution1108.defangIPaddr("255.100.50.0"));
+    //Solution1108 solution1108 = new Solution1108();
+    //System.out.println(solution1108.defangIPaddr("1.1.1.1"));
+    //System.out.println(solution1108.defangIPaddr("255.100.50.0"));
+    
+    //Solution 2011
+    Solution2011 solution2011 = new Solution2011();
+    System.out.println(solution2011.finalValueAfterOperations(new String[]{"--X","X++","X++"}));
+    System.out.println(solution2011.finalValueAfterOperations(new String[]{"++X","++X","X++"}));
+    System.out.println(solution2011.finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
   }
 
 }
