@@ -26,10 +26,16 @@ class Main {
     //System.out.println(solution1108.defangIPaddr("255.100.50.0"));
     
     //Solution 2011
-    Solution2011 solution2011 = new Solution2011();
-    System.out.println(solution2011.finalValueAfterOperations(new String[]{"--X","X++","X++"}));
-    System.out.println(solution2011.finalValueAfterOperations(new String[]{"++X","++X","X++"}));
-    System.out.println(solution2011.finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
+    //Solution2011 solution2011 = new Solution2011();
+    //System.out.println(solution2011.finalValueAfterOperations(new String[]{"--X","X++","X++"}));
+    //System.out.println(solution2011.finalValueAfterOperations(new String[]{"++X","++X","X++"}));
+    //System.out.println(solution2011.finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
+    
+    //Solution 2413
+    Solution2413 solution2413 = new Solution2413();
+    System.out.println(solution2413.smallestEvenMultiple(5));
+    System.out.println(solution2413.smallestEvenMultiple(6));
+    System.out.println(solution2413.smallestEvenMultiple(28));
   }
 
 }
