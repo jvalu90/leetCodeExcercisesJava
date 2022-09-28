@@ -32,10 +32,16 @@ class Main {
     //System.out.println(solution2011.finalValueAfterOperations(new String[]{"X++","++X","--X","X--"}));
     
     //Solution 2413
-    Solution2413 solution2413 = new Solution2413();
-    System.out.println(solution2413.smallestEvenMultiple(5));
-    System.out.println(solution2413.smallestEvenMultiple(6));
-    System.out.println(solution2413.smallestEvenMultiple(28));
+    //Solution2413 solution2413 = new Solution2413();
+    //System.out.println(solution2413.smallestEvenMultiple(5));
+    //System.out.println(solution2413.smallestEvenMultiple(6));
+    //System.out.println(solution2413.smallestEvenMultiple(28));
+    
+    //Solution 1470
+    Solution1470 solution1470 = new Solution1470();
+    System.out.println(solution1470.shuffle(new int[]{2,5,1,3,4,7}, 3));
+    System.out.println(solution1470.shuffle(new int[]{1,2,3,4,4,3,2,1}, 4));
+    System.out.println(solution1470.shuffle(new int[]{1,1,2,2}, 2));
   }
 
 }
