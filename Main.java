@@ -38,10 +38,16 @@ class Main {
     //System.out.println(solution2413.smallestEvenMultiple(28));
     
     //Solution 1470
-    Solution1470 solution1470 = new Solution1470();
-    System.out.println(solution1470.shuffle(new int[]{2,5,1,3,4,7}, 3));
-    System.out.println(solution1470.shuffle(new int[]{1,2,3,4,4,3,2,1}, 4));
-    System.out.println(solution1470.shuffle(new int[]{1,1,2,2}, 2));
+    //Solution1470 solution1470 = new Solution1470();
+    //System.out.println(solution1470.shuffle(new int[]{2,5,1,3,4,7}, 3));
+    //System.out.println(solution1470.shuffle(new int[]{1,2,3,4,4,3,2,1}, 4));
+    //System.out.println(solution1470.shuffle(new int[]{1,1,2,2}, 2));
+
+    //Soluion 1672
+    Solution1672 solution1672 = new Solution1672();
+    System.out.println(solution1672.maximumWealth(new int[][]{{1,2,3},{3,2,1}})); // 6
+    System.out.println(solution1672.maximumWealth(new int[][]{{1,5},{7,3},{3,5}})); // 10
+    System.out.println(solution1672.maximumWealth(new int[][]{{2,8,7},{7,1,3},{1,9,5}})); // 17   
   }
 
 }
