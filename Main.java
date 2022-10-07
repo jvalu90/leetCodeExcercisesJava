@@ -50,9 +50,15 @@ class Main {
     //System.out.println(solution1672.maximumWealth(new int[][]{{2,8,7},{7,1,3},{1,9,5}})); // 17   
 
     //Soluion 2114
-    Solution2114 solution2114 = new Solution2114();
-    System.out.println(solution2114.mostWordsFound(new String[]{"alice and bob love leetcode", "i think so too", "this is great thanks very much"})); // 6
-    System.out.println(solution2114.mostWordsFound(new String[]{"please wait", "continue to fight", "continue to win"})); // 3     
+    //Solution2114 solution2114 = new Solution2114();
+    //System.out.println(solution2114.mostWordsFound(new String[]{"alice and bob love leetcode", "i think so too", "this is great thanks very much"})); // 6
+    //System.out.println(solution2114.mostWordsFound(new String[]{"please wait", "continue to fight", "continue to win"})); // 3  
+
+    //Solution 2160
+    Solution2160 solution2160 = new Solution2160();
+    System.out.println(solution2160.minimumSum(2932)); // 52
+    System.out.println(solution2160.minimumSum(4009)); // 13
+      
   }
 
 }
