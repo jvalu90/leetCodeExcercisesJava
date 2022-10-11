@@ -55,9 +55,15 @@ class Main {
     //System.out.println(solution2114.mostWordsFound(new String[]{"please wait", "continue to fight", "continue to win"})); // 3  
 
     //Solution 2160
-    Solution2160 solution2160 = new Solution2160();
-    System.out.println(solution2160.minimumSum(2932)); // 52
-    System.out.println(solution2160.minimumSum(4009)); // 13
+    //Solution2160 solution2160 = new Solution2160();
+    //System.out.println(solution2160.minimumSum(2932)); // 52
+    //System.out.println(solution2160.minimumSum(4009)); // 13
+    
+    //Solution 1512
+    Solution1512 solution1512 = new Solution1512();
+    System.out.println(solution1512.numIdenticalPairs(new int[]{1,2,3,1,1,3})); // 4
+    System.out.println(solution1512.numIdenticalPairs(new int[]{1,1,1,1})); // 6
+    System.out.println(solution1512.numIdenticalPairs(new int[]{1,2,3})); // 0
       
   }
 
