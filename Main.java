@@ -66,9 +66,14 @@ class Main {
     //System.out.println(solution1512.numIdenticalPairs(new int[]{1,2,3})); // 0
     
     //Solution 771
-    Solution771 solution771 = new Solution771();
-    System.out.println(solution771.numJewelsInStones("aA", "aAAbbbb")); // 3
-    System.out.println(solution771.numJewelsInStones("z", "ZZ")); // 0    
+    //Solution771 solution771 = new Solution771();
+    //System.out.println(solution771.numJewelsInStones("aA", "aAAbbbb")); // 3
+    //System.out.println(solution771.numJewelsInStones("z", "ZZ")); // 0  
+    
+    //Solution 2236
+    Solution2236 solution2236 = new Solution2236();
+    System.out.println(solution2236.checkTree(new TreeNode(10, new TreeNode(6), new TreeNode(4)))); //true
+    System.out.println(solution2236.checkTree(new TreeNode(5, new TreeNode(3), new TreeNode(1)))); //false
   }
 
 }
