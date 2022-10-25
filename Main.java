@@ -71,9 +71,15 @@ class Main {
     //System.out.println(solution771.numJewelsInStones("z", "ZZ")); // 0  
     
     //Solution 2236
-    Solution2236 solution2236 = new Solution2236();
-    System.out.println(solution2236.checkTree(new TreeNode(10, new TreeNode(6), new TreeNode(4)))); //true
-    System.out.println(solution2236.checkTree(new TreeNode(5, new TreeNode(3), new TreeNode(1)))); //false
+    //Solution2236 solution2236 = new Solution2236();
+    //System.out.println(solution2236.checkTree(new TreeNode(10, new TreeNode(6), new TreeNode(4)))); //true
+    //System.out.println(solution2236.checkTree(new TreeNode(5, new TreeNode(3), new TreeNode(1)))); //false
+    
+    //Solution 1431
+    Solution1431 solution1431 = new Solution1431();
+    System.out.println(solution1431.kidsWithCandies(new int[]{2,3,5,1,3}, 3)); //[true,true,true,false,true] 
+    System.out.println(solution1431.kidsWithCandies(new int[]{4,2,1,1,2}, 1)); //[true,false,false,false,false] 
+    System.out.println(solution1431.kidsWithCandies(new int[]{12,1,12}, 10)); //[true,false,true]
   }
 
 }
