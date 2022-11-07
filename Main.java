@@ -80,6 +80,10 @@ class Main {
     System.out.println(solution1431.kidsWithCandies(new int[]{2,3,5,1,3}, 3)); //[true,true,true,false,true] 
     System.out.println(solution1431.kidsWithCandies(new int[]{4,2,1,1,2}, 1)); //[true,false,false,false,false] 
     System.out.println(solution1431.kidsWithCandies(new int[]{12,1,12}, 10)); //[true,false,true]
+    
+    //Solution 1379
+    Solution1379 solution1379 = new Solution1379();
+
   }
 
 }
