@@ -77,13 +77,23 @@ class Main {
     
     //Solution 1431
     Solution1431 solution1431 = new Solution1431();
-    System.out.println(solution1431.kidsWithCandies(new int[]{2,3,5,1,3}, 3)); //[true,true,true,false,true] 
-    System.out.println(solution1431.kidsWithCandies(new int[]{4,2,1,1,2}, 1)); //[true,false,false,false,false] 
-    System.out.println(solution1431.kidsWithCandies(new int[]{12,1,12}, 10)); //[true,false,true]
+    //System.out.println(solution1431.kidsWithCandies(new int[]{2,3,5,1,3}, 3)); //[true,true,true,false,true] 
+    //System.out.println(solution1431.kidsWithCandies(new int[]{4,2,1,1,2}, 1)); //[true,false,false,false,false] 
+    //System.out.println(solution1431.kidsWithCandies(new int[]{12,1,12}, 10)); //[true,false,true]
     
     //Solution 1379
     Solution1379 solution1379 = new Solution1379();
 
+    //Solution 1281
+    Solution1281 solution1281 = new Solution1281();
+    System.out.println(solution1281.subtractProductAndSum(234)); //15
+    System.out.println(solution1281.subtractProductAndSum(4421)); //21
+    
+    //Solution 1365
+    Solution1365 solution1365 = new Solution1365();
+    System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})); // [4,0,1,1,3]
+    System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{6,5,4,8})); // [2,1,0,3]
+    System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{7,7,7,7})); // [0,0,0,0]
   }
 
 }
