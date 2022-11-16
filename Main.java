@@ -86,14 +86,19 @@ class Main {
 
     //Solution 1281
     Solution1281 solution1281 = new Solution1281();
-    System.out.println(solution1281.subtractProductAndSum(234)); //15
-    System.out.println(solution1281.subtractProductAndSum(4421)); //21
+    //System.out.println(solution1281.subtractProductAndSum(234)); //15
+    //System.out.println(solution1281.subtractProductAndSum(4421)); //21
     
     //Solution 1365
     Solution1365 solution1365 = new Solution1365();
-    System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})); // [4,0,1,1,3]
-    System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{6,5,4,8})); // [2,1,0,3]
-    System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{7,7,7,7})); // [0,0,0,0]
+    //System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})); // [4,0,1,1,3]
+    //System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{6,5,4,8})); // [2,1,0,3]
+    //System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{7,7,7,7})); // [0,0,0,0]
+
+    //Solution 2469
+    Solution2469 solution2469 = new Solution2469();
+    System.out.println(solution2469.convertTemperature(36.50)); // [309.65000,97.70000]
+    System.out.println(solution2469.convertTemperature(122.11)); // [395.26000,251.79800]
   }
 
 }
