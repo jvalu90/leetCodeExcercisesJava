@@ -97,8 +97,14 @@ class Main {
 
     //Solution 2469
     Solution2469 solution2469 = new Solution2469();
-    System.out.println(solution2469.convertTemperature(36.50)); // [309.65000,97.70000]
-    System.out.println(solution2469.convertTemperature(122.11)); // [395.26000,251.79800]
+    //System.out.println(solution2469.convertTemperature(36.50)); // [309.65000,97.70000]
+    //System.out.println(solution2469.convertTemperature(122.11)); // [395.26000,251.79800]
+
+    //Solution 1678
+    Solution1678 solution1678 = new Solution1678();
+    System.out.println(solution1678.interpret("G()(al)")); // "Goal"
+    System.out.println(solution1678.interpret("G()()()()(al)")); // "Gooooal"
+    System.out.println(solution1678.interpret("(al)G(al)()()G")); // "alGalooG"
   }
 
 }
