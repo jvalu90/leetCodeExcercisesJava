@@ -102,9 +102,14 @@ class Main {
 
     //Solution 1678
     Solution1678 solution1678 = new Solution1678();
-    System.out.println(solution1678.interpret("G()(al)")); // "Goal"
-    System.out.println(solution1678.interpret("G()()()()(al)")); // "Gooooal"
-    System.out.println(solution1678.interpret("(al)G(al)()()G")); // "alGalooG"
+    //System.out.println(solution1678.interpret("G()(al)")); // "Goal"
+    //System.out.println(solution1678.interpret("G()()()()(al)")); // "Gooooal"
+    //System.out.println(solution1678.interpret("(al)G(al)()()G")); // "alGalooG"
+    
+    //Solution 1720
+    Solution1720 solution1720 = new Solution1720();
+    System.out.println(solution1720.decode(new int[]{1,2,3}, 1)); // [1,0,2,1]
+    System.out.println(solution1720.decode(new int[]{6,2,7,3}, 4)); // [4,2,0,7,4]
   }
 
 }
