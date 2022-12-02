@@ -108,8 +108,19 @@ class Main {
     
     //Solution 1720
     Solution1720 solution1720 = new Solution1720();
-    System.out.println(solution1720.decode(new int[]{1,2,3}, 1)); // [1,0,2,1]
-    System.out.println(solution1720.decode(new int[]{6,2,7,3}, 4)); // [4,2,0,7,4]
+    //System.out.println(solution1720.decode(new int[]{1,2,3}, 1)); // [1,0,2,1]
+    //System.out.println(solution1720.decode(new int[]{6,2,7,3}, 4)); // [4,2,0,7,4]
+    
+    //Solution 1389
+    Solution1389 solution1389 = new Solution1389();
+    //System.out.println(solution1389.createTargetArray(new int[]{0,1,2,3,4}, new int[]{0,1,2,2,1})); // [0,4,1,3,2]
+    //System.out.println(solution1389.createTargetArray(new int[]{1,2,3,4,0}, new int[]{0,1,2,3,0})); // [0,1,2,3,4]
+    //System.out.println(solution1389.createTargetArray(new int[]{1}, new int[]{0})); // [1]
+
+    //Solution 1313
+    Solution1313 solution1313 = new Solution1313();
+    System.out.println(solution1313.decompressRLElist(new int[]{1,2,3,4})); // [2,4,4,4]
+    System.out.println(solution1313.decompressRLElist(new int[]{1,1,2,3})); // [1,3,3]
   }
 
 }
