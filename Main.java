@@ -119,8 +119,14 @@ class Main {
 
     //Solution 1313
     Solution1313 solution1313 = new Solution1313();
-    System.out.println(solution1313.decompressRLElist(new int[]{1,2,3,4})); // [2,4,4,4]
-    System.out.println(solution1313.decompressRLElist(new int[]{1,1,2,3})); // [1,3,3]
+    //System.out.println(solution1313.decompressRLElist(new int[]{1,2,3,4})); // [2,4,4,4]
+    //System.out.println(solution1313.decompressRLElist(new int[]{1,1,2,3})); // [1,3,3]
+
+    //Solutionm 1528
+    Solution1528 solution1528 = new Solution1528();
+    System.out.println(solution1528.restoreString("codeleet", new int[]{4,5,6,7,0,2,1,3})); // "leetcode"
+    System.out.println(solution1528.restoreString("abc", new int[]{0,1,2})); // "abc"
+    
   }
 
 }
