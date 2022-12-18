@@ -124,9 +124,9 @@ class Main {
 
     //Solutionm 1528
     Solution1528 solution1528 = new Solution1528();
-    System.out.println(solution1528.restoreString("codeleet", new int[]{4,5,6,7,0,2,1,3})); // "leetcode"
-    System.out.println(solution1528.restoreString("abc", new int[]{0,1,2})); // "abc"
-    
-  }
+    //System.out.println(solution1528.restoreString("codeleet", new int[]{4,5,6,7,0,2,1,3})); // "leetcode"
+    //System.out.println(solution1528.restoreString("abc", new int[]{0,1,2})); // "abc"
 
+    //Solution 938
+  }
 }
