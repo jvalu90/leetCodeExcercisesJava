@@ -128,5 +128,11 @@ class Main {
     //System.out.println(solution1528.restoreString("abc", new int[]{0,1,2})); // "abc"
 
     //Solution 938
+
+    //Solution 2194
+    Solution2194 solution2194 = new Solution2194();
+    System.out.println(solution2194.cellsInRange("K1:L2")); // ["K1","K2","L1","L2"]
+    System.out.println(solution2194.cellsInRange("A1:F1")); // ["A1","B1","C1","D1","E1","F1"]
+    
   }
 }
