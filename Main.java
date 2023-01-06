@@ -136,10 +136,16 @@ class Main {
 
     //Solution 1656
     OrderedStream os = new OrderedStream(5);
-    System.out.println(os.insert(3, "ccccc"));
-    System.out.println(os.insert(1, "aaaaa"));
-    System.out.println(os.insert(2, "bbbbb"));
-    System.out.println(os.insert(5, "eeeee"));
-    System.out.println(os.insert(4, "ddddd"));    
+    //System.out.println(os.insert(3, "ccccc"));
+    //System.out.println(os.insert(1, "aaaaa"));
+    //System.out.println(os.insert(2, "bbbbb"));
+    //System.out.println(os.insert(5, "eeeee"));
+    //System.out.println(os.insert(4, "ddddd"));    
+
+    //Solution 1342
+    Solution1342 solution1342 = new Solution1342();
+    System.out.println(solution1342.numberOfSteps(14)); // 6
+    System.out.println(solution1342.numberOfSteps(8)); // 4
+    System.out.println(solution1342.numberOfSteps(123)); // 12
   }
 }
