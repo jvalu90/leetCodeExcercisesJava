@@ -144,8 +144,19 @@ class Main {
 
     //Solution 1342
     Solution1342 solution1342 = new Solution1342();
-    System.out.println(solution1342.numberOfSteps(14)); // 6
-    System.out.println(solution1342.numberOfSteps(8)); // 4
-    System.out.println(solution1342.numberOfSteps(123)); // 12
+    //System.out.println(solution1342.numberOfSteps(14)); // 6
+    //System.out.println(solution1342.numberOfSteps(8)); // 4
+    //System.out.println(solution1342.numberOfSteps(123)); // 12
+
+    //Solution 1221
+    Solution1221 solution1221 = new Solution1221();
+    //System.out.println(solution1221.balancedStringSplit("RLRRLLRLRL")); // 4
+    //System.out.println(solution1221.balancedStringSplit("RLRRRLLRLL")); // 2
+    //System.out.println(solution1221.balancedStringSplit("LLLLRRRR")); // 1
+
+    //Solution 2325
+    Solution2325 solution2325 = new Solution2325();
+    System.out.println(solution2325.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv") ); // "this is a secret"
+    System.out.println(solution2325.decodeMessage("eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb") ); // "the five boxing wizards jump quickly"
   }
 }
