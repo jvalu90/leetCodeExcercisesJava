@@ -156,7 +156,12 @@ class Main {
 
     //Solution 2325
     Solution2325 solution2325 = new Solution2325();
-    System.out.println(solution2325.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv") ); // "this is a secret"
-    System.out.println(solution2325.decodeMessage("eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb") ); // "the five boxing wizards jump quickly"
+    //System.out.println(solution2325.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv") ); // "this is a secret"
+    //System.out.println(solution2325.decodeMessage("eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb") ); // "the five boxing wizards jump quickly"
+
+    //Solution 1486
+    Solution1486 solution1486 = new Solution1486();
+    System.out.println(solution1486.xorOperation(5, 0)); // 8
+    System.out.println(solution1486.xorOperation(4, 3)); // 8
   }
 }
