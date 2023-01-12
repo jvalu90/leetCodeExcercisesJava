@@ -161,7 +161,12 @@ class Main {
 
     //Solution 1486
     Solution1486 solution1486 = new Solution1486();
-    System.out.println(solution1486.xorOperation(5, 0)); // 8
-    System.out.println(solution1486.xorOperation(4, 3)); // 8
+    //System.out.println(solution1486.xorOperation(5, 0)); // 8
+    //System.out.println(solution1486.xorOperation(4, 3)); // 8
+
+    //Solutiuon 1859
+    Solution1859 solution1859 = new Solution1859();
+    System.out.println(solution1859.sortSentence("is2 sentence4 This1 a3")); // "This is a sentence"
+    System.out.println(solution1859.sortSentence("Myself2 Me1 I4 and3")); // "Me Myself and I"
   }
 }
