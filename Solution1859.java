@@ -10,10 +10,15 @@ A sentence can be shuffled by appending the 1-indexed word position to each word
 Given a shuffled sentence s containing no more than 9 words, reconstruct and return the original sentence.
 */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 class Solution1859 {
     public String sortSentence(String s) {
-      // 1. Sort the sentence,
-      // 2. Delete the numbers and,
-      // 3. Append the strings
+      String[] strArr = s.split(" ");
+      ArrayList<String> list = new ArrayList<String>(Arrays.asList(strArr));
+      list.sort((a,b) -> a.charAt(a.length()-1) - b.charAt(b.length()-1));
+      strArr = list.stream().map(word -> word.substring(0, word.length() -1)).toArray(String[]::new);      
+      return String.join(" ", strArr);
     }
 }
