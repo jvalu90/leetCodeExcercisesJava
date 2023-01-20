@@ -166,7 +166,18 @@ class Main {
 
     //Solutiuon 1859
     Solution1859 solution1859 = new Solution1859();
-    System.out.println(solution1859.sortSentence("is2 sentence4 This1 a3")); // "This is a sentence"
-    System.out.println(solution1859.sortSentence("Myself2 Me1 I4 and3")); // "Me Myself and I"
+    //System.out.println(solution1859.sortSentence("is2 sentence4 This1 a3")); // "This is a sentence"
+    //System.out.println(solution1859.sortSentence("Myself2 Me1 I4 and3")); // "Me Myself and I"
+
+    //Solution 2535
+    Solution2535 solution2535 = new Solution2535();
+    //System.out.println(solution2535.differenceOfSum(new int[]{1,15,6,3})); // 9
+    //System.out.println(solution2535.differenceOfSum(new int[]{1,2,3,4})); // 0
+
+    //Solution 2520
+    Solution2520 solution2520 = new Solution2520();
+    //System.out.println(solution2520.countDigits(7)); //1
+    System.out.println(solution2520.countDigits(121)); //2
+    //System.out.println(solution2520.countDigits(1248)); //4
   }
 }
