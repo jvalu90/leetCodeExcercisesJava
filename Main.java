@@ -1,3 +1,5 @@
+import java.util.*;
+
 class Main {
   public static void main(String[] args) {
     //Solution 1929 ------------------------------------------------------------------------------------
@@ -177,7 +179,22 @@ class Main {
     //Solution 2520
     Solution2520 solution2520 = new Solution2520();
     //System.out.println(solution2520.countDigits(7)); //1
-    System.out.println(solution2520.countDigits(121)); //2
+    //System.out.println(solution2520.countDigits(121)); //2
     //System.out.println(solution2520.countDigits(1248)); //4
+
+    //Solution 1773
+    Solution1773 solution1773 = new Solution1773();
+    List<List<String>> listOne = new ArrayList<>(List.of(
+                new ArrayList<>(List.of("phone","blue","pixel")),
+                new ArrayList<>(List.of("computer","silver","lenovo")),
+                new ArrayList<>(List.of("phone","gold","iphone"))));
+
+    List<List<String>> listTwo = new ArrayList<>(List.of(
+                new ArrayList<>(List.of("phone","blue","pixel")),
+                new ArrayList<>(List.of("computer","silver","phone")),
+                new ArrayList<>(List.of("phone","gold","iphone"))));
+    
+    System.out.println(solution1773.countMatches(listOne, "color", "silver"));  // 1
+    System.out.println(solution1773.countMatches(listTwo, "type", "phone"));  // 2    
   }
 }
