@@ -194,7 +194,12 @@ class Main {
                 new ArrayList<>(List.of("computer","silver","phone")),
                 new ArrayList<>(List.of("phone","gold","iphone"))));
     
-    System.out.println(solution1773.countMatches(listOne, "color", "silver"));  // 1
-    System.out.println(solution1773.countMatches(listTwo, "type", "phone"));  // 2    
+    //System.out.println(solution1773.countMatches(listOne, "color", "silver"));  // 1
+    //System.out.println(solution1773.countMatches(listTwo, "type", "phone"));  // 2    
+
+    // Solution 2373
+    Solution2373 solution2373 = new Solution2373();
+    System.out.println(solution2373.largestLocal(new int[][]{{9,9,8,1},{5,6,2,6},{8,2,6,4},{6,2,2,2}})); // [[9,9],[8,6]]
+    System.out.println(solution2373.largestLocal(new int[][]{{1,1,1,1,1},{1,1,1,1,1},{1,1,2,1,1},{1,1,1,1,1},{1,1,1,1,1}})); // [[2,2,2],[2,2,2],[2,2,2]]
   }
 }
