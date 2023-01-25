@@ -199,7 +199,12 @@ class Main {
 
     // Solution 2373
     Solution2373 solution2373 = new Solution2373();
-    System.out.println(solution2373.largestLocal(new int[][]{{9,9,8,1},{5,6,2,6},{8,2,6,4},{6,2,2,2}})); // [[9,9],[8,6]]
-    System.out.println(solution2373.largestLocal(new int[][]{{1,1,1,1,1},{1,1,1,1,1},{1,1,2,1,1},{1,1,1,1,1},{1,1,1,1,1}})); // [[2,2,2],[2,2,2],[2,2,2]]
+    //System.out.println(solution2373.largestLocal(new int[][]{{9,9,8,1},{5,6,2,6},{8,2,6,4},{6,2,2,2}})); // [[9,9],[8,6]]
+    //System.out.println(solution2373.largestLocal(new int[][]{{1,1,1,1,1},{1,1,1,1,1},{1,1,2,1,1},{1,1,1,1,1},{1,1,1,1,1}})); // [[2,2,2],[2,2,2],[2,2,2]]
+
+    // Solution 2367
+    Solution2367 solution2367 = new Solution2367();
+    System.out.println(solution2367.arithmeticTriplets(new int[]{0,1,4,6,7,10}, 3)); // 2
+    System.out.println(solution2367.arithmeticTriplets(new int[]{4,5,6,7,8,9}, 2)); // 2
   }
 }
