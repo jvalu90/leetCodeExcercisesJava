@@ -204,7 +204,12 @@ class Main {
 
     // Solution 2367
     Solution2367 solution2367 = new Solution2367();
-    System.out.println(solution2367.arithmeticTriplets(new int[]{0,1,4,6,7,10}, 3)); // 2
-    System.out.println(solution2367.arithmeticTriplets(new int[]{4,5,6,7,8,9}, 2)); // 2
+    //System.out.println(solution2367.arithmeticTriplets(new int[]{0,1,4,6,7,10}, 3)); // 2
+    //System.out.println(solution2367.arithmeticTriplets(new int[]{4,5,6,7,8,9}, 2)); // 2
+
+    // Solution 1832
+    Solution1832 solution1832 = new Solution1832();
+    System.out.println(solution1832.checkIfPangram("thequickbrownfoxjumpsoverthelazydog")); // true
+    System.out.println(solution1832.checkIfPangram("leetcode")); // false
   }
 }
