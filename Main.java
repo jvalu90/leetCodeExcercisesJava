@@ -209,7 +209,13 @@ class Main {
 
     // Solution 1832
     Solution1832 solution1832 = new Solution1832();
-    System.out.println(solution1832.checkIfPangram("thequickbrownfoxjumpsoverthelazydog")); // true
-    System.out.println(solution1832.checkIfPangram("leetcode")); // false
+    //System.out.println(solution1832.checkIfPangram("thequickbrownfoxjumpsoverthelazydog")); // true
+    //System.out.println(solution1832.checkIfPangram("leetcode")); // false
+
+    // Solution 1791
+
+    Solution1791 solution1791 = new Solution1791();
+    System.out.println(solution1791.findCenter(new int[][]{{1,2},{2,3},{4,2}})); // 2
+    System.out.println(solution1791.findCenter(new int[][]{{1,2},{5,1},{1,3},{1,4}})); // 1
   }
 }
