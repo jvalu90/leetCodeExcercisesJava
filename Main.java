@@ -215,7 +215,13 @@ class Main {
     // Solution 1791
 
     Solution1791 solution1791 = new Solution1791();
-    System.out.println(solution1791.findCenter(new int[][]{{1,2},{2,3},{4,2}})); // 2
-    System.out.println(solution1791.findCenter(new int[][]{{1,2},{5,1},{1,3},{1,4}})); // 1
+    //System.out.println(solution1791.findCenter(new int[][]{{1,2},{2,3},{4,2}})); // 2
+    //System.out.println(solution1791.findCenter(new int[][]{{1,2},{5,1},{1,3},{1,4}})); // 1
+
+    // Solution 1588
+    Solution1588 solution1588 = new Solution1588();
+    System.out.println(solution1588.sumOddLengthSubarrays(new int[]{1,4,2,5,3})); // 58
+    System.out.println(solution1588.sumOddLengthSubarrays(new int[]{1,2})); // 3
+    System.out.println(solution1588.sumOddLengthSubarrays(new int[]{10,11,12})); // 66
   }
 }
