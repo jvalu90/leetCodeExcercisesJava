@@ -220,8 +220,14 @@ class Main {
 
     // Solution 1588
     Solution1588 solution1588 = new Solution1588();
-    System.out.println(solution1588.sumOddLengthSubarrays(new int[]{1,4,2,5,3})); // 58
-    System.out.println(solution1588.sumOddLengthSubarrays(new int[]{1,2})); // 3
-    System.out.println(solution1588.sumOddLengthSubarrays(new int[]{10,11,12})); // 66
+    //System.out.println(solution1588.sumOddLengthSubarrays(new int[]{1,4,2,5,3})); // 58
+    //System.out.println(solution1588.sumOddLengthSubarrays(new int[]{1,2})); // 3
+    //System.out.println(solution1588.sumOddLengthSubarrays(new int[]{10,11,12})); // 66
+
+    // Solution 1662
+    Solution1662 solution1662 = new Solution1662();
+    System.out.println(solution1662.arrayStringsAreEqual(new String[]{"ab", "c"}, new String[]{"a", "bc"})); // true
+    System.out.println(solution1662.arrayStringsAreEqual(new String[]{"a", "cb"}, new String[]{"ab", "c"})); // true
+    System.out.println(solution1662.arrayStringsAreEqual(new String[]{"abc", "d", "defg"}, new String[]{"abcddefg"})); // true
   }
 }
