@@ -226,8 +226,14 @@ class Main {
 
     // Solution 1662
     Solution1662 solution1662 = new Solution1662();
-    System.out.println(solution1662.arrayStringsAreEqual(new String[]{"ab", "c"}, new String[]{"a", "bc"})); // true
-    System.out.println(solution1662.arrayStringsAreEqual(new String[]{"a", "cb"}, new String[]{"ab", "c"})); // true
-    System.out.println(solution1662.arrayStringsAreEqual(new String[]{"abc", "d", "defg"}, new String[]{"abcddefg"})); // true
+    //System.out.println(solution1662.arrayStringsAreEqual(new String[]{"ab", "c"}, new String[]{"a", "bc"})); // true
+    //System.out.println(solution1662.arrayStringsAreEqual(new String[]{"a", "cb"}, new String[]{"ab", "c"})); // true
+    //System.out.println(solution1662.arrayStringsAreEqual(new String[]{"abc", "d", "defg"}, new String[]{"abcddefg"})); // true
+
+    // Solution 1689
+    Solution1689 solution1689 = new Solution1689();
+    System.out.println(solution1689.minPartitions("32")); // 3
+    System.out.println(solution1689.minPartitions("82734")); // 8
+    System.out.println(solution1689.minPartitions("27346209830709182346")); // 9
   }
 }
