@@ -232,8 +232,12 @@ class Main {
 
     // Solution 1689
     Solution1689 solution1689 = new Solution1689();
-    System.out.println(solution1689.minPartitions("32")); // 3
-    System.out.println(solution1689.minPartitions("82734")); // 8
-    System.out.println(solution1689.minPartitions("27346209830709182346")); // 9
+    //System.out.println(solution1689.minPartitions("32")); // 3
+    //System.out.println(solution1689.minPartitions("82734")); // 8
+    //System.out.println(solution1689.minPartitions("27346209830709182346")); // 9
+
+    Solution2500 solution2500 = new Solution2500();
+    System.out.println(solution2500.deleteGreatestValue(new int[][]{{1,2,4},{3,3,1}}));
+    System.out.println(solution2500.deleteGreatestValue(new int[][]{{10}}));
   }
 }
