@@ -237,7 +237,11 @@ class Main {
     //System.out.println(solution1689.minPartitions("27346209830709182346")); // 9
 
     Solution2500 solution2500 = new Solution2500();
-    System.out.println(solution2500.deleteGreatestValue(new int[][]{{1,2,4},{3,3,1}}));
-    System.out.println(solution2500.deleteGreatestValue(new int[][]{{10}}));
+    //System.out.println(solution2500.deleteGreatestValue(new int[][]{{1,2,4},{3,3,1}}));
+    //System.out.println(solution2500.deleteGreatestValue(new int[][]{{10}}));
+
+    Solution1688 solution1688 = new Solution1688();
+    System.out.println(solution1688.numberOfMatches(7)); // 6
+    System.out.println(solution1688.numberOfMatches(14)); // 13
   }
 }
