@@ -241,7 +241,12 @@ class Main {
     //System.out.println(solution2500.deleteGreatestValue(new int[][]{{10}}));
 
     Solution1688 solution1688 = new Solution1688();
-    System.out.println(solution1688.numberOfMatches(7)); // 6
-    System.out.println(solution1688.numberOfMatches(14)); // 13
+    //System.out.println(solution1688.numberOfMatches(7)); // 6
+    //System.out.println(solution1688.numberOfMatches(14)); // 13
+
+    Solution1816 solution1816 = new Solution1816();
+    System.out.println(solution1816.truncateSentence("Hello how are you Contestant", 4)); // "Hello how are you"
+    System.out.println(solution1816.truncateSentence("What is the solution to this problem", 4)); // "What is the solution"
+    System.out.println(solution1816.truncateSentence("chopper is not a tanuki", 5)); // "chopper is not a tanuki"       
   }
 }
