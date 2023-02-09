@@ -245,8 +245,12 @@ class Main {
     //System.out.println(solution1688.numberOfMatches(14)); // 13
 
     Solution1816 solution1816 = new Solution1816();
-    System.out.println(solution1816.truncateSentence("Hello how are you Contestant", 4)); // "Hello how are you"
-    System.out.println(solution1816.truncateSentence("What is the solution to this problem", 4)); // "What is the solution"
-    System.out.println(solution1816.truncateSentence("chopper is not a tanuki", 5)); // "chopper is not a tanuki"       
+    //System.out.println(solution1816.truncateSentence("Hello how are you Contestant", 4)); // "Hello how are you"
+    //System.out.println(solution1816.truncateSentence("What is the solution to this problem", 4)); // "What is the solution"
+    //System.out.println(solution1816.truncateSentence("chopper is not a tanuki", 5)); // "chopper is not a tanuki"
+
+    Solution804 solution804 = new Solution804();
+    System.out.println(solution804.uniqueMorseRepresentations(new String[]{"gin","zen","gig","msg"})); // 2
+    System.out.println(solution804.uniqueMorseRepresentations(new String[]{"a"})); // 1
   }
 }
