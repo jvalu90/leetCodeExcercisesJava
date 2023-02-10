@@ -250,7 +250,12 @@ class Main {
     //System.out.println(solution1816.truncateSentence("chopper is not a tanuki", 5)); // "chopper is not a tanuki"
 
     Solution804 solution804 = new Solution804();
-    System.out.println(solution804.uniqueMorseRepresentations(new String[]{"gin","zen","gig","msg"})); // 2
-    System.out.println(solution804.uniqueMorseRepresentations(new String[]{"a"})); // 1
+    //System.out.println(solution804.uniqueMorseRepresentations(new String[]{"gin","zen","gig","msg"})); // 2
+    //System.out.println(solution804.uniqueMorseRepresentations(new String[]{"a"})); // 1
+
+    Solution2006 solution2006 = new Solution2006();
+    System.out.println(solution2006.countKDifference(new int[]{1,2,2,1}, 1)); // 4
+    System.out.println(solution2006.countKDifference(new int[]{1,3}, 3)); // 0
+    System.out.println(solution2006.countKDifference(new int[]{3,2,1,5,4}, 2)); // 3
   }
 }
