@@ -24,12 +24,17 @@ import java.util.ArrayList;
 class Solution1614 {
   public int maxDepth(String s) {
     int maxDepth = 0;
-    ArrayList<String> maxDepthArray = new ArrayList<String>();
-    // Recorrer el arreglo de izquierda a derecha
-    // Tan pronto encuentre ( anadirlo al arreglo
-    // Tan pronto encuentre ) verificar si el ultimo elemento del arreglo es (
-    // En caso positivo preguntar el maximo entre el MaxDepth y el MaxDepthArray.length
-    // Eliminar la ultima posicion del maxDepthArray para buscar mas profundidad
+    ArrayList<Character> maxDepthArray = new ArrayList<Character>();
+    
+    for(char ch : s.toCharArray()) {
+      int maxDepthArrayLength = maxDepthArray.size();
+      if(ch == '(') maxDepthArray.add(ch);
+
+      if(ch == ')' && maxDepthArray.get(maxDepthArrayLength - 1) == '(') {
+        maxDepth = Math.max(maxDepth, maxDepthArrayLength);
+        maxDepthArray.remove(maxDepthArrayLength -1);
+      }
+    }
     return maxDepth;
   }
 }
