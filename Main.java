@@ -263,7 +263,11 @@ class Main {
     //System.out.println(solution1614.maxDepth("(1)+((2))+(((3)))")); // 3
 
     Solution2315 solution2315 = new Solution2315();
-    System.out.println(solution2315.countAsterisks("l|*e*et|c**o|*de|")); // 2
-    // System.out.println(solution2315.countAsterisks("iamprogrammer")); // 0
+    //System.out.println(solution2315.countAsterisks("l|*e*et|c**o|*de|")); // 2
+    //System.out.println(solution2315.countAsterisks("iamprogrammer")); // 0
+
+    Solution1290 solution1290 = new Solution1290();
+    System.out.println(solution1290.getDecimalValue(new ListNode(1, new ListNode(0, new ListNode(1))))); // 5
+    System.out.println(solution1290.getDecimalValue(new ListNode(0))); // 0
   }
 }
