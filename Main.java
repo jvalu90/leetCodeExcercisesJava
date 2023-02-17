@@ -267,7 +267,12 @@ class Main {
     //System.out.println(solution2315.countAsterisks("iamprogrammer")); // 0
 
     Solution1290 solution1290 = new Solution1290();
-    System.out.println(solution1290.getDecimalValue(new ListNode(1, new ListNode(0, new ListNode(1))))); // 5
-    System.out.println(solution1290.getDecimalValue(new ListNode(0))); // 0
+    //System.out.println(solution1290.getDecimalValue(new ListNode(1, new ListNode(0, new ListNode(1))))); // 5
+    //System.out.println(solution1290.getDecimalValue(new ListNode(0))); // 0
+
+    Solution709 solution709 = new Solution709();
+    System.out.println(solution709.toLowerCase("Hello")); // hello
+    System.out.println(solution709.toLowerCase("here")); // here
+    System.out.println(solution709.toLowerCase("LOVELY")); // lovely
   }
 }
