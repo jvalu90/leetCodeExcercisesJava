@@ -271,8 +271,12 @@ class Main {
     //System.out.println(solution1290.getDecimalValue(new ListNode(0))); // 0
 
     Solution709 solution709 = new Solution709();
-    System.out.println(solution709.toLowerCase("Hello")); // hello
-    System.out.println(solution709.toLowerCase("here")); // here
-    System.out.println(solution709.toLowerCase("LOVELY")); // lovely
+    // System.out.println(solution709.toLowerCase("Hello")); // hello
+    // System.out.println(solution709.toLowerCase("here")); // here
+    // System.out.println(solution709.toLowerCase("LOVELY")); // lovely
+
+    Solution2220 solution2220 = new Solution2220();
+    System.out.println(solution2220.minBitFlips(10, 7)); //3
+    System.out.println(solution2220.minBitFlips(3, 4)); //3
   }
 }
