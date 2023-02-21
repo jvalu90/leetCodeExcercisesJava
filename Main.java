@@ -276,7 +276,12 @@ class Main {
     // System.out.println(solution709.toLowerCase("LOVELY")); // lovely
 
     Solution2220 solution2220 = new Solution2220();
-    System.out.println(solution2220.minBitFlips(10, 7)); //3
-    System.out.println(solution2220.minBitFlips(3, 4)); //3
+    // System.out.println(solution2220.minBitFlips(10, 7)); //3
+    // System.out.println(solution2220.minBitFlips(3, 4)); //3
+
+    Solution1323 solution1323 = new Solution1323();
+    System.out.println(solution1323.maximum69Number(9669)); // 9969
+    System.out.println(solution1323.maximum69Number(9996)); // 9999
+    System.out.println(solution1323.maximum69Number(9999)); // 9999
   }
 }
