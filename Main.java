@@ -280,8 +280,13 @@ class Main {
     // System.out.println(solution2220.minBitFlips(3, 4)); //3
 
     Solution1323 solution1323 = new Solution1323();
-    System.out.println(solution1323.maximum69Number(9669)); // 9969
-    System.out.println(solution1323.maximum69Number(9996)); // 9999
-    System.out.println(solution1323.maximum69Number(9999)); // 9999
+    // System.out.println(solution1323.maximum69Number(9669)); // 9969
+    // System.out.println(solution1323.maximum69Number(9996)); // 9999
+    // System.out.println(solution1323.maximum69Number(9999)); // 9999
+
+    Solution1684 solution1684 = new Solution1684();
+    System.out.println(solution1684.countConsistentStrings("ab", new String[]{"ad","bd","aaab","baa","badab"})); // 2
+    //System.out.println(solution1684.countConsistentStrings("abc", new String[]{"a","b","c","ab","ac","bc","abc"})); // 7
+    //System.out.println(solution1684.countConsistentStrings("cad", new String[]{"cc","acd","b","ba","bac","bad","ac","d"})); // 4
   }
 }
