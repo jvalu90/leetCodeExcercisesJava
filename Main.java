@@ -285,8 +285,13 @@ class Main {
     // System.out.println(solution1323.maximum69Number(9999)); // 9999
 
     Solution1684 solution1684 = new Solution1684();
-    System.out.println(solution1684.countConsistentStrings("ab", new String[]{"ad","bd","aaab","baa","badab"})); // 2
-    //System.out.println(solution1684.countConsistentStrings("abc", new String[]{"a","b","c","ab","ac","bc","abc"})); // 7
-    //System.out.println(solution1684.countConsistentStrings("cad", new String[]{"cc","acd","b","ba","bac","bad","ac","d"})); // 4
+    // System.out.println(solution1684.countConsistentStrings("ab", new String[]{"ad","bd","aaab","baa","badab"})); // 2
+    // System.out.println(solution1684.countConsistentStrings("abc", new String[]{"a","b","c","ab","ac","bc","abc"})); // 7
+    // System.out.println(solution1684.countConsistentStrings("cad", new String[]{"cc","acd","b","ba","bac","bad","ac","d"})); // 4
+
+    Solution2037 solution2037 = new Solution2037();
+    System.out.println(solution2037.minMovesToSeat(new int[]{3,1,5}, new int[]{2,7,4})); // 4
+    System.out.println(solution2037.minMovesToSeat(new int[]{4,1,5,9}, new int[]{1,3,2,6})); // 7
+    System.out.println(solution2037.minMovesToSeat(new int[]{2,2,6,6}, new int[]{1,3,2,6})); // 4
   }
 }
