@@ -295,7 +295,11 @@ class Main {
     // System.out.println(solution2037.minMovesToSeat(new int[]{2,2,6,6}, new int[]{1,3,2,6})); // 4
 
     Solution557 solution557 = new Solution557();
-    System.out.println(solution557.reverseWords("Let's take LeetCode contest")); // "s'teL ekat edoCteeL tsetnoc"
-    System.out.println(solution557.reverseWords("God Ding")); // "doG gniD"    
+    // System.out.println(solution557.reverseWords("Let's take LeetCode contest")); // "s'teL ekat edoCteeL tsetnoc"
+    // System.out.println(solution557.reverseWords("God Ding")); // "doG gniD"    
+
+    Solution2574 solution2574 = new Solution2574();
+    System.out.println(solution2574.leftRightDifference(new int[]{10,4,8,3})); // [15,1,11,22]
+    System.out.println(solution2574.leftRightDifference(new int[]{1})); // [0]
   }
 }
