@@ -299,7 +299,12 @@ class Main {
     // System.out.println(solution557.reverseWords("God Ding")); // "doG gniD"    
 
     Solution2574 solution2574 = new Solution2574();
-    System.out.println(solution2574.leftRightDifference(new int[]{10,4,8,3})); // [15,1,11,22]
-    System.out.println(solution2574.leftRightDifference(new int[]{1})); // [0]
+    // System.out.println(solution2574.leftRightDifference(new int[]{10,4,8,3})); // [15,1,11,22]
+    // System.out.println(solution2574.leftRightDifference(new int[]{1})); // [0]
+
+    Solution2103 solution2103 = new Solution2103();
+    System.out.println(solution2103.countPoints("B0B6G0R6R0R6G9")); //1
+    System.out.println(solution2103.countPoints("B0R0G0R9R0B0G0"));//1
+    System.out.println(solution2103.countPoints("G4")); //0
   }
 }
