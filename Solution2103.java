@@ -17,16 +17,19 @@ import java.util.*;
 
 class Solution2103 {
   public int countPoints(String rings) {
-    int response = 0;
     Map<String, Set<String>> mapper = new HashMap<>();
 
     for (int i = 0; i < rings.length() - 1; i+=2) {
-      // validar si la key existe con la posicion i
-      // Si existe sumar al set la posicion i + 1, de lo contrario a
-      // Utilizar el compute ifPresent de
-    }
-    String example = "ch";
-    System.out.println(String.valueOf(example.charAt(0)));
-    return response;
+      String ring = String.valueOf(rings.charAt(i));
+      String rod = String.valueOf(rings.charAt(i + 1));
+
+      if (!mapper.containsKey(rod)) {
+        mapper.put(rod, new HashSet<>(Arrays.asList(ring)));
+      } else {
+        mapper.get(rod).add(ring);
+      }
+    }    
+    
+    return (int) mapper.values().stream().filter(set -> set.size() == 3).count();
   }
 }

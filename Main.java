@@ -303,8 +303,12 @@ class Main {
     // System.out.println(solution2574.leftRightDifference(new int[]{1})); // [0]
 
     Solution2103 solution2103 = new Solution2103();
-    System.out.println(solution2103.countPoints("B0B6G0R6R0R6G9")); //1
-    System.out.println(solution2103.countPoints("B0R0G0R9R0B0G0"));//1
-    System.out.println(solution2103.countPoints("G4")); //0
+    // System.out.println(solution2103.countPoints("B0B6G0R6R0R6G9")); //1
+    // System.out.println(solution2103.countPoints("B0R0G0R9R0B0G0"));//1
+    // System.out.println(solution2103.countPoints("G4")); //0
+
+    Solution1913 solution1913 = new Solution1913();
+    System.out.println(solution1913.maxProductDifference(new int[]{5,6,2,7,4})); // 34
+    System.out.println(solution1913.maxProductDifference(new int[]{4,2,5,9,7,4,8})); // 64
   }
 }
