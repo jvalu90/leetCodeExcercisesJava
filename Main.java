@@ -308,7 +308,12 @@ class Main {
     // System.out.println(solution2103.countPoints("G4")); //0
 
     Solution1913 solution1913 = new Solution1913();
-    System.out.println(solution1913.maxProductDifference(new int[]{5,6,2,7,4})); // 34
-    System.out.println(solution1913.maxProductDifference(new int[]{4,2,5,9,7,4,8})); // 64
+    // System.out.println(solution1913.maxProductDifference(new int[]{5,6,2,7,4})); // 34
+    // System.out.println(solution1913.maxProductDifference(new int[]{4,2,5,9,7,4,8})); // 64
+
+    Solution2418 solution2418 = new Solution2418();
+    System.out.println(solution2418.sortPeople(new String[]{"Mary","John","Emma"}, new int[]{180,165,170})); // ["Mary","Emma","John"]
+    System.out.println(solution2418.sortPeople(new String[]{"Alice","Bob","Bob"}, new int[]{155,185,150})); // ["Bob","Alice","Bob"]
+    System.out.println(solution2418.sortPeople(new String[]{"IEO","Sgizfdfrims","QTASHKQ","Vk","RPJOFYZUBFSIYp","EPCFFt","VOYGWWNCf","WSpmqvb"}, new int[]{17233,32521,14087,42738,46669,65662,43204,8224})); // "EPCFFt","RPJOFYZUBFSIYp","VOYGWWNCf","Vk","Sgizfdfrims","IEO","QTASHKQ","WSpmqvb"
   }
 }
