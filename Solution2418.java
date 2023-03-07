@@ -7,23 +7,26 @@ For each index i, names[i] and heights[i] denote the name and height of the ith 
 
 Return names sorted in descending order by the people's heights.
 */
+import java.util.*;
 
 class Solution2418 {
   public String[] sortPeople(String[] names, int[] heights) {
-    String[] response = new String[names.length];
-    response[0] = names[0];
-
-    for (int i = 1; i < names.length; i++) {
-      if(heights[i] > heights[i - 1]) {
-        String aux = response[i - 1];
-        response[i - 1] = names[i];
-        response[i] = aux;
-      } else {
-        response[i] = names[i];
-      }          
+    Map<Integer, String> map = new HashMap<>();
+    String[] res = new String[heights.length];
+    int i=0;
+    
+    while(map.size() < heights.length){
+      if(!map.containsKey(heights[i])){
+        map.put(heights[i],names[i]);
+      }
+            i++;
     }
-   
-    return response;
+    
+    Arrays.sort(heights);
+    for(int j=heights.length-1;j>=0;j--){
+      res[j] = map.get(heights[heights.length-j-1]);
+    }
+    
+    return res;
   }
-  
 }
