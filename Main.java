@@ -321,7 +321,12 @@ class Main {
     // System.out.println(solution1534.countGoodTriplets(new int[]{1,1,2,2,3}, 0, 0, 1)); // 0
 
     Solution832 solution832 = new Solution832();
-    System.out.println(solution832.flipAndInvertImage(new int[][]{{1,1,0}, {1,0,1}, {0,0,0}})); // [[1,0,0],[0,1,0],[1,1,1]]
-    System.out.println(solution832.flipAndInvertImage(new int[][]{{1,1,0,0}, {1,0,0,1}, {0,1,1,1}, {1,0,1,0}})); // [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
+    // System.out.println(solution832.flipAndInvertImage(new int[][]{{1,1,0}, {1,0,1}, {0,0,0}})); // [[1,0,0],[0,1,0],[1,1,1]]
+    // System.out.println(solution832.flipAndInvertImage(new int[][]{{1,1,0,0}, {1,0,0,1}, {0,1,1,1}, {1,0,1,0}})); // [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
+
+    Solution1021 solution1021 = new Solution1021();
+    System.out.println(solution1021.removeOuterParentheses("(()())(())")); // "()()()"
+    System.out.println(solution1021.removeOuterParentheses("(()())(())(()(()))")); // "()()()()(())"
+    System.out.println(solution1021.removeOuterParentheses("()()")); // ""
   }
 }
