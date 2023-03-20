@@ -325,8 +325,27 @@ class Main {
     // System.out.println(solution832.flipAndInvertImage(new int[][]{{1,1,0,0}, {1,0,0,1}, {0,1,1,1}, {1,0,1,0}})); // [[1,1,0,0],[0,1,1,0],[0,0,0,1],[1,0,1,0]]
 
     Solution1021 solution1021 = new Solution1021();
-    System.out.println(solution1021.removeOuterParentheses("(()())(())")); // "()()()"
-    System.out.println(solution1021.removeOuterParentheses("(()())(())(()(()))")); // "()()()()(())"
-    System.out.println(solution1021.removeOuterParentheses("()()")); // ""
+    // System.out.println(solution1021.removeOuterParentheses("(()())(())")); // "()()()"
+    // System.out.println(solution1021.removeOuterParentheses("(()())(())(()(()))")); // "()()()()(())"
+    // System.out.println(solution1021.removeOuterParentheses("()()")); // ""
+
+    Solution1572 solution1572 = new Solution1572();
+    // System.out.println(solution1572.diagonalSum(new int[][]{{1,2,3}, {4,5,6}, {7,8,9}})); // 25
+    // System.out.println(solution1572.diagonalSum(new int[][]{{1,1,1,1}, {1,1,1,1}, {1,1,1,1}, {1,1,1,1}})); // 8
+    // System.out.println(solution1572.diagonalSum(new int[][]{{5}})); // 5
+
+    Solution1844 solution1844 = new Solution1844();
+    // System.out.println(solution1844.replaceDigits("a1c1e1")); // "abcdef"
+    // System.out.println(solution1844.replaceDigits("a1b2c3d4e")); // "abbdcfdhe"
+
+    Solution1967 solution1967 = new Solution1967();
+    //System.out.println(solution1967.numOfStrings(new String[]{"a","abc","bc","d"}, "abc")); // 3
+    //System.out.println(solution1967.numOfStrings(new String[]{"a","b","c"}, "aaaaabbbbb")); // 2
+    //System.out.println(solution1967.numOfStrings(new String[]{"a","a","a"}, "ab")); // 3
+
+    Solution2485 solution2485 = new Solution2485();
+    System.out.println(solution2485.pivotInteger(8)); //6
+    System.out.println(solution2485.pivotInteger(1)); //1
+    System.out.println(solution2485.pivotInteger(4)); //-1
   }
 }
