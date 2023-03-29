@@ -344,8 +344,17 @@ class Main {
     //System.out.println(solution1967.numOfStrings(new String[]{"a","a","a"}, "ab")); // 3
 
     Solution2485 solution2485 = new Solution2485();
-    System.out.println(solution2485.pivotInteger(8)); //6
-    System.out.println(solution2485.pivotInteger(1)); //1
-    System.out.println(solution2485.pivotInteger(4)); //-1
+    // System.out.println(solution2485.pivotInteger(8)); //6
+    // System.out.println(solution2485.pivotInteger(1)); //1
+    // System.out.println(solution2485.pivotInteger(4)); //-1
+
+    Solution1464 solution1464 = new Solution1464();
+    // System.out.println(solution1464.maxProduct(new int[]{3,4,5,2})); // 12
+    // System.out.println(solution1464.maxProduct(new int[]{1,5,4,5})); // 16
+    // System.out.println(solution1464.maxProduct(new int[]{3,7})); // 12
+
+    Solution2427 solution2427 = new Solution2427();
+    System.out.println(solution2427.commonFactors(12, 6)); // 4
+    System.out.println(solution2427.commonFactors(25, 30)); // 2
   }
 }
