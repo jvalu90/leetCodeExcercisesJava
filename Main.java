@@ -354,7 +354,11 @@ class Main {
     // System.out.println(solution1464.maxProduct(new int[]{3,7})); // 12
 
     Solution2427 solution2427 = new Solution2427();
-    System.out.println(solution2427.commonFactors(12, 6)); // 4
-    System.out.println(solution2427.commonFactors(25, 30)); // 2
+    //System.out.println(solution2427.commonFactors(12, 6)); // 4
+    //System.out.println(solution2427.commonFactors(25, 30)); // 2
+
+    Solution1309 solution1309 = new Solution1309();
+    System.out.println(solution1309.freqAlphabets("10#11#12")); // "jkab"
+    System.out.println(solution1309.freqAlphabets("1326#")); // "acz"
   }
 }
