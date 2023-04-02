@@ -362,7 +362,11 @@ class Main {
     //System.out.println(solution1309.freqAlphabets("1326#")); // "acz"
 
     Solution2176 solution2176 = new Solution2176();
-    System.out.println(solution2176.countPairs(new int[]{3,1,2,2,2,1,3}, 2)); //4
-    System.out.println(solution2176.countPairs(new int[]{1,2,3,4}, 1)); //0
+    // System.out.println(solution2176.countPairs(new int[]{3,1,2,2,2,1,3}, 2)); //4
+    // System.out.println(solution2176.countPairs(new int[]{1,2,3,4}, 1)); //0
+
+    Solution2553 solution2553 = new Solution2553();
+    System.out.println(solution2553.separateDigits(new int[]{13,25,83,77})); // [1,3,2,5,8,3,7,7]
+    System.out.println(solution2553.separateDigits(new int[]{7,1,3,9})); // [7,1,3,9]
   }
 }
