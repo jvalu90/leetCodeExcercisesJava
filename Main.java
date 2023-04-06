@@ -366,7 +366,15 @@ class Main {
     // System.out.println(solution2176.countPairs(new int[]{1,2,3,4}, 1)); //0
 
     Solution2553 solution2553 = new Solution2553();
-    System.out.println(solution2553.separateDigits(new int[]{13,25,83,77})); // [1,3,2,5,8,3,7,7]
-    System.out.println(solution2553.separateDigits(new int[]{7,1,3,9})); // [7,1,3,9]
+    //System.out.println(solution2553.separateDigits(new int[]{13,25,83,77})); // [1,3,2,5,8,3,7,7]
+    //System.out.println(solution2553.separateDigits(new int[]{7,1,3,9})); // [7,1,3,9]
+
+    Solution1266 solution1266 = new Solution1266();
+    // System.out.println(solution1266.minTimeToVisitAllPoints(new int[][]{{1,1},{3,4},{-1,0}})); //7
+    // System.out.println(solution1266.minTimeToVisitAllPoints(new int[][]{{3,2},{-2,2}})); //5
+
+    Solution1732 solution1732 = new Solution1732();
+    System.out.println(solution1732.largestAltitude(new int[]{-5,1,5,0,-7})); // 1
+    System.out.println(solution1732.largestAltitude(new int[]{-4,-3,-2,-1,4,3,2})); // 0
   }
 }

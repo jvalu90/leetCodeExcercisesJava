@@ -11,6 +11,7 @@ To separate the digits of an integer is to get all the digits it has in the same
 
 import java.util.List;
 import java.util.ArrayList;
+import java.util.Collections;
 
 class Solution2553 {
   public int[] separateDigits(int[] nums) {
