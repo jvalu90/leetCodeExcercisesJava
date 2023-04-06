@@ -374,7 +374,12 @@ class Main {
     // System.out.println(solution1266.minTimeToVisitAllPoints(new int[][]{{3,2},{-2,2}})); //5
 
     Solution1732 solution1732 = new Solution1732();
-    System.out.println(solution1732.largestAltitude(new int[]{-5,1,5,0,-7})); // 1
-    System.out.println(solution1732.largestAltitude(new int[]{-4,-3,-2,-1,4,3,2})); // 0
+    // System.out.println(solution1732.largestAltitude(new int[]{-5,1,5,0,-7})); // 1
+    // System.out.println(solution1732.largestAltitude(new int[]{-4,-3,-2,-1,4,3,2})); // 0
+
+    Solution2000 solution2000 = new Solution2000();
+    System.out.println(solution2000.reversePrefix("abcdefd", 'd')); // "dcbaefd"
+    System.out.println(solution2000.reversePrefix("xyxzxe", 'z')); // "zxyxxe"
+    System.out.println(solution2000.reversePrefix("abcd", 'z')); // "abcd"
   }
 }
