@@ -378,8 +378,17 @@ class Main {
     // System.out.println(solution1732.largestAltitude(new int[]{-4,-3,-2,-1,4,3,2})); // 0
 
     Solution2000 solution2000 = new Solution2000();
-    System.out.println(solution2000.reversePrefix("abcdefd", 'd')); // "dcbaefd"
-    System.out.println(solution2000.reversePrefix("xyxzxe", 'z')); // "zxyxxe"
-    System.out.println(solution2000.reversePrefix("abcd", 'z')); // "abcd"
+    //System.out.println(solution2000.reversePrefix("abcdefd", 'd')); // "dcbaefd"
+    //System.out.println(solution2000.reversePrefix("xyxzxe", 'z')); // "zxyxxe"
+    //System.out.println(solution2000.reversePrefix("abcd", 'z')); // "abcd"
+
+    Solution1725 solution1725 = new Solution1725();
+    //System.out.println(solution1725.countGoodRectangles(new int[][]{{5,8},{3,9},{5,12},{16,5}})); // 3
+    //System.out.println(solution1725.countGoodRectangles(new int[][]{{2,3},{3,7},{4,3},{3,7}})); // 3
+
+    Solution2108 solution2108 = new Solution2108();
+    System.out.println(solution2108.firstPalindrome(new String[]{"abc","car","ada","racecar","cool"})); //"ada"
+    System.out.println(solution2108.firstPalindrome(new String[]{"notapalindrome","racecar"})); //"racecar"
+    System.out.println(solution2108.firstPalindrome(new String[]{"def","ghi"})); //""
   }
 }
