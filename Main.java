@@ -387,8 +387,12 @@ class Main {
     //System.out.println(solution1725.countGoodRectangles(new int[][]{{2,3},{3,7},{4,3},{3,7}})); // 3
 
     Solution2108 solution2108 = new Solution2108();
-    System.out.println(solution2108.firstPalindrome(new String[]{"abc","car","ada","racecar","cool"})); //"ada"
-    System.out.println(solution2108.firstPalindrome(new String[]{"notapalindrome","racecar"})); //"racecar"
-    System.out.println(solution2108.firstPalindrome(new String[]{"def","ghi"})); //""
+    //System.out.println(solution2108.firstPalindrome(new String[]{"abc","car","ada","racecar","cool"})); //"ada"
+    //System.out.println(solution2108.firstPalindrome(new String[]{"notapalindrome","racecar"})); //"racecar"
+    //System.out.println(solution2108.firstPalindrome(new String[]{"def","ghi"})); //""
+
+    Solution1252 solution1252 = new Solution1252();
+    System.out.println(solution1252.oddCells(2, 3, new int[][]{{0,1},{1,1}})); //6
+    System.out.println(solution1252.oddCells(2, 2, new int[][]{{1,1},{0,0}})); //0
   }
 }
