@@ -392,7 +392,7 @@ class Main {
     //System.out.println(solution2108.firstPalindrome(new String[]{"def","ghi"})); //""
 
     Solution1252 solution1252 = new Solution1252();
-    System.out.println(solution1252.oddCells(2, 3, new int[][]{{0,1},{1,1}})); //6
-    System.out.println(solution1252.oddCells(2, 2, new int[][]{{1,1},{0,0}})); //0
+    //System.out.println(solution1252.oddCells(2, 3, new int[][]{{0,1},{1,1}})); //6
+    //System.out.println(solution1252.oddCells(2, 2, new int[][]{{1,1},{0,0}})); //0
   }
 }
