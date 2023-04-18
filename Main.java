@@ -394,5 +394,10 @@ class Main {
     Solution1252 solution1252 = new Solution1252();
     //System.out.println(solution1252.oddCells(2, 3, new int[][]{{0,1},{1,1}})); //6
     //System.out.println(solution1252.oddCells(2, 2, new int[][]{{1,1},{0,0}})); //0
+
+    Solution1827 solution1827 = new Solution1827();
+    System.out.println(solution1827.minOperations(new int[]{1,1,1})); //3
+    System.out.println(solution1827.minOperations(new int[]{1,5,2,4,1})); //3
+    System.out.println(solution1827.minOperations(new int[]{8})); //0
   }
 }
