@@ -396,8 +396,12 @@ class Main {
     //System.out.println(solution1252.oddCells(2, 2, new int[][]{{1,1},{0,0}})); //0
 
     Solution1827 solution1827 = new Solution1827();
-    System.out.println(solution1827.minOperations(new int[]{1,1,1})); //3
-    System.out.println(solution1827.minOperations(new int[]{1,5,2,4,1})); //3
-    System.out.println(solution1827.minOperations(new int[]{8})); //0
+    //System.out.println(solution1827.minOperations(new int[]{1,1,1})); //3
+    //System.out.println(solution1827.minOperations(new int[]{1,5,2,4,1})); //3
+    //System.out.println(solution1827.minOperations(new int[]{8})); //0
+
+    Solution728 solution728 = new Solution728();
+    System.out.println(solution728.selfDividingNumbers(1, 22)); // [1,2,3,4,5,6,7,8,9,11,12,15,22]
+    System.out.println(solution728.selfDividingNumbers(47, 85)); // [48,55,66,77]
   }
 }
