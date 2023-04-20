@@ -401,7 +401,12 @@ class Main {
     //System.out.println(solution1827.minOperations(new int[]{8})); //0
 
     Solution728 solution728 = new Solution728();
-    System.out.println(solution728.selfDividingNumbers(1, 22)); // [1,2,3,4,5,6,7,8,9,11,12,15,22]
-    System.out.println(solution728.selfDividingNumbers(47, 85)); // [48,55,66,77]
+    //System.out.println(solution728.selfDividingNumbers(1, 22)); // [1,2,3,4,5,6,7,8,9,11,12,15,22]
+    //System.out.println(solution728.selfDividingNumbers(47, 85)); // [48,55,66,77]
+
+    Solution1812 solution1812 = new Solution1812();
+    System.out.println(solution1812.squareIsWhite("a1")); // false
+    System.out.println(solution1812.squareIsWhite("h3")); // true
+    System.out.println(solution1812.squareIsWhite("c7")); // false
   }
 }
