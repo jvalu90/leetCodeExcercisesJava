@@ -405,8 +405,12 @@ class Main {
     //System.out.println(solution728.selfDividingNumbers(47, 85)); // [48,55,66,77]
 
     Solution1812 solution1812 = new Solution1812();
-    System.out.println(solution1812.squareIsWhite("a1")); // false
-    System.out.println(solution1812.squareIsWhite("h3")); // true
-    System.out.println(solution1812.squareIsWhite("c7")); // false
+    //System.out.println(solution1812.squareIsWhite("a1")); // false
+    //System.out.println(solution1812.squareIsWhite("h3")); // true
+    //System.out.println(solution1812.squareIsWhite("c7")); // false
+
+    Solution1704 solution1704 = new Solution1704();
+    System.out.println(solution1704.halvesAreAlike("book")); //true
+    System.out.println(solution1704.halvesAreAlike("textbook")); //false
   }
 }
