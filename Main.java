@@ -410,7 +410,16 @@ class Main {
     //System.out.println(solution1812.squareIsWhite("c7")); // false
 
     Solution1704 solution1704 = new Solution1704();
-    System.out.println(solution1704.halvesAreAlike("book")); //true
-    System.out.println(solution1704.halvesAreAlike("textbook")); //false
+    //System.out.println(solution1704.halvesAreAlike("book")); //true
+    //System.out.println(solution1704.halvesAreAlike("textbook")); //false
+
+    Solution1374 solution1374 = new Solution1374();
+    //System.out.println(solution1374.generateTheString(4)); // aaab
+    //System.out.println(solution1374.generateTheString(2)); // ab
+    //System.out.println(solution1374.generateTheString(7)); // aaaaaaaa
+
+    Solution2651 solution2651 = new Solution2651();
+    System.out.println(solution2651.findDelayedArrivalTime(15, 5)); // 20
+    System.out.println(solution2651.findDelayedArrivalTime(13, 11)); // 0
   }
 }
