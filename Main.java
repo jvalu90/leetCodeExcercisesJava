@@ -419,7 +419,16 @@ class Main {
     //System.out.println(solution1374.generateTheString(7)); // aaaaaaaa
 
     Solution2651 solution2651 = new Solution2651();
-    System.out.println(solution2651.findDelayedArrivalTime(15, 5)); // 20
-    System.out.println(solution2651.findDelayedArrivalTime(13, 11)); // 0
+    //System.out.println(solution2651.findDelayedArrivalTime(15, 5)); // 20
+    //System.out.println(solution2651.findDelayedArrivalTime(13, 11)); // 0
+
+    Solution2652 solution2652 = new Solution2652();
+    //System.out.println(solution2652.sumOfMultiples(7)); //21
+    //System.out.println(solution2652.sumOfMultiples(10)); //40
+    //System.out.println(solution2652.sumOfMultiples(9)); //30
+
+    Solution2656 solution2656 = new Solution2656();
+    System.out.println(solution2656.maximizeSum(new int[]{1,2,3,4,5}, 3)); //18
+    System.out.println(solution2656.maximizeSum(new int[]{5,5,5}, 2)); //11
   }
 }
