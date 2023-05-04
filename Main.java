@@ -428,7 +428,11 @@ class Main {
     //System.out.println(solution2652.sumOfMultiples(9)); //30
 
     Solution2656 solution2656 = new Solution2656();
-    System.out.println(solution2656.maximizeSum(new int[]{1,2,3,4,5}, 3)); //18
-    System.out.println(solution2656.maximizeSum(new int[]{5,5,5}, 2)); //11
+    //System.out.println(solution2656.maximizeSum(new int[]{1,2,3,4,5}, 3)); //18
+    //System.out.println(solution2656.maximizeSum(new int[]{5,5,5}, 2)); //11
+
+    Solution2215 solution2215 = new Solution2215();
+    System.out.println(solution2215.findDifference(new int[]{1,2,3}, new int[]{2,4,6})); //[[1,3],[4,6]]
+    System.out.println(solution2215.findDifference(new int[]{1,2,3,3}, new int[]{1,1,2,2})); //[[3],[]]
   }
 }
