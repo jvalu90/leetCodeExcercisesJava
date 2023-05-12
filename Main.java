@@ -436,8 +436,12 @@ class Main {
     //System.out.println(solution2215.findDifference(new int[]{1,2,3,3}, new int[]{1,1,2,2})); //[[3],[]]
 
     Solution1863 solution1863 = new Solution1863();
-    System.out.println(solution1863.subsetXORSum(new int[]{1,3})); // 6
-    System.out.println(solution1863.subsetXORSum(new int[]{5,1,6})); // 28
-    System.out.println(solution1863.subsetXORSum(new int[]{3,4,5,6,7,8})); // 480
+    //System.out.println(solution1863.subsetXORSum(new int[]{1,3})); // 6
+    //System.out.println(solution1863.subsetXORSum(new int[]{5,1,6})); // 28
+    //System.out.println(solution1863.subsetXORSum(new int[]{3,4,5,6,7,8})); // 480
+
+    Solution2586 solution2586 = new Solution2586();
+    System.out.println(solution2586.vowelStrings(new String[]{"are","amy","u"}, 0, 2)); //2
+    System.out.println(solution2586.vowelStrings(new String[]{"hey","aeo","mu","ooo","artro"}, 1, 4)); //3
   }
 }

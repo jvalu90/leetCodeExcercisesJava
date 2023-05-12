@@ -6,7 +6,7 @@ Given the root of an n-ary tree, return the postorder traversal of its nodes' va
 Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
 */
 
-class Solution {
+class Solution590 {
   public List<Integer> postorder(Node root) {
         return postorder(root, new ArrayList<>());
     }
