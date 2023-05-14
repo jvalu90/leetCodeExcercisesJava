@@ -441,7 +441,11 @@ class Main {
     //System.out.println(solution1863.subsetXORSum(new int[]{3,4,5,6,7,8})); // 480
 
     Solution2586 solution2586 = new Solution2586();
-    System.out.println(solution2586.vowelStrings(new String[]{"are","amy","u"}, 0, 2)); //2
-    System.out.println(solution2586.vowelStrings(new String[]{"hey","aeo","mu","ooo","artro"}, 1, 4)); //3
+    //System.out.println(solution2586.vowelStrings(new String[]{"are","amy","u"}, 0, 2)); //2
+    //System.out.println(solution2586.vowelStrings(new String[]{"hey","aeo","mu","ooo","artro"}, 1, 4)); //3
+
+    Solution2678 solution2678 = new Solution2678();
+    System.out.println(solution2678.countSeniors(new String[]{"7868190130M7522","5303914400F9211","9273338290F4010"})); //2
+    System.out.println(solution2678.countSeniors(new String[]{"1313579440F2036","2921522980M5644"})); //0
   }
 }
