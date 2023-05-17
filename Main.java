@@ -445,7 +445,12 @@ class Main {
     //System.out.println(solution2586.vowelStrings(new String[]{"hey","aeo","mu","ooo","artro"}, 1, 4)); //3
 
     Solution2678 solution2678 = new Solution2678();
-    System.out.println(solution2678.countSeniors(new String[]{"7868190130M7522","5303914400F9211","9273338290F4010"})); //2
-    System.out.println(solution2678.countSeniors(new String[]{"1313579440F2036","2921522980M5644"})); //0
+    //System.out.println(solution2678.countSeniors(new String[]{"7868190130M7522","5303914400F9211","9273338290F4010"})); //2
+    //System.out.println(solution2678.countSeniors(new String[]{"1313579440F2036","2921522980M5644"})); //0
+
+    Solution942 solution942 = new Solution942();
+    System.out.println(solution942.diStringMatch("IDID")); // [0,4,1,3,2]
+    System.out.println(solution942.diStringMatch("III")); // [0,1,2,3]
+    System.out.println(solution942.diStringMatch("DDI")); // [3,2,0,1]
   }
 }
