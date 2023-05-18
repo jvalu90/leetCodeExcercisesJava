@@ -449,8 +449,12 @@ class Main {
     //System.out.println(solution2678.countSeniors(new String[]{"1313579440F2036","2921522980M5644"})); //0
 
     Solution942 solution942 = new Solution942();
-    System.out.println(solution942.diStringMatch("IDID")); // [0,4,1,3,2]
-    System.out.println(solution942.diStringMatch("III")); // [0,1,2,3]
-    System.out.println(solution942.diStringMatch("DDI")); // [3,2,0,1]
+    //System.out.println(solution942.diStringMatch("IDID")); // [0,4,1,3,2]
+    //System.out.println(solution942.diStringMatch("III")); // [0,1,2,3]
+    //System.out.println(solution942.diStringMatch("DDI")); // [3,2,0,1]
+
+    Solution561 solution561 = new Solution561();
+    System.out.println(solution561.arrayPairSum(new int[]{1,4,3,2})); //4
+    System.out.println(solution561.arrayPairSum(new int[]{6,2,6,5,1,2})); //9
   }
 }
