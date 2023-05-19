@@ -1,5 +1,7 @@
 import java.util.*;
 
+import com.sun.tools.javac.code.Attribute.Array;
+
 class Main {
   public static void main(String[] args) {
     //Solution 1929 ------------------------------------------------------------------------------------
@@ -454,7 +456,11 @@ class Main {
     //System.out.println(solution942.diStringMatch("DDI")); // [3,2,0,1]
 
     Solution561 solution561 = new Solution561();
-    System.out.println(solution561.arrayPairSum(new int[]{1,4,3,2})); //4
-    System.out.println(solution561.arrayPairSum(new int[]{6,2,6,5,1,2})); //9
+    //System.out.println(solution561.arrayPairSum(new int[]{1,4,3,2})); //4
+    //System.out.println(solution561.arrayPairSum(new int[]{6,2,6,5,1,2})); //9
+
+    Solution1436 solution1436 = new Solution1436();
+    System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("London","New York"), Arrays.asList("New York","Lima"), Arrays.asList("Lima","Sao Paulo")))); //"Sao Paulo" 
+    System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("B","C"), Arrays.asList("D","B"), Arrays.asList("C","A")))); //"A" 
   }
 }
