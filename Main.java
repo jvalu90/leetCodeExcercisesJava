@@ -460,7 +460,7 @@ class Main {
     //System.out.println(solution561.arrayPairSum(new int[]{6,2,6,5,1,2})); //9
 
     Solution1436 solution1436 = new Solution1436();
-    System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("London","New York"), Arrays.asList("New York","Lima"), Arrays.asList("Lima","Sao Paulo")))); //"Sao Paulo" 
-    System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("B","C"), Arrays.asList("D","B"), Arrays.asList("C","A")))); //"A" 
+    //System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("London","New York"), Arrays.asList("New York","Lima"), Arrays.asList("Lima","Sao Paulo")))); //"Sao Paulo" 
+    //System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("B","C"), Arrays.asList("D","B"), Arrays.asList("C","A")))); //"A" 
   }
 }
