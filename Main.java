@@ -1,6 +1,5 @@
 import java.util.*;
 
-import com.sun.tools.javac.code.Attribute.Array;
 
 class Main {
   public static void main(String[] args) {
@@ -462,5 +461,10 @@ class Main {
     Solution1436 solution1436 = new Solution1436();
     //System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("London","New York"), Arrays.asList("New York","Lima"), Arrays.asList("Lima","Sao Paulo")))); //"Sao Paulo" 
     //System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("B","C"), Arrays.asList("D","B"), Arrays.asList("C","A")))); //"A" 
+
+    Solution2697 solution2697 = new Solution2697();
+    System.out.println(solution2697.makeSmallestPalindrome("egcfe")); // "efcfe"
+    System.out.println(solution2697.makeSmallestPalindrome("abcd")); // "abba"
+    System.out.println(solution2697.makeSmallestPalindrome("seven")); // "neven"
   }
 }
