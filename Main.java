@@ -463,8 +463,13 @@ class Main {
     //System.out.println(solution1436.destCity(Arrays.asList(Arrays.asList("B","C"), Arrays.asList("D","B"), Arrays.asList("C","A")))); //"A" 
 
     Solution2697 solution2697 = new Solution2697();
-    System.out.println(solution2697.makeSmallestPalindrome("egcfe")); // "efcfe"
-    System.out.println(solution2697.makeSmallestPalindrome("abcd")); // "abba"
-    System.out.println(solution2697.makeSmallestPalindrome("seven")); // "neven"
+    //System.out.println(solution2697.makeSmallestPalindrome("egcfe")); // "efcfe"
+    //System.out.println(solution2697.makeSmallestPalindrome("abcd")); // "abba"
+    //System.out.println(solution2697.makeSmallestPalindrome("seven")); // "neven"
+
+    Solution2119 solution2119 = new Solution2119();
+    System.out.println(solution2119.isSameAfterReversals(526)); // true
+    System.out.println(solution2119.isSameAfterReversals(1800)); // false
+    System.out.println(solution2119.isSameAfterReversals(526)); // true
   }
 }
