@@ -468,8 +468,17 @@ class Main {
     //System.out.println(solution2697.makeSmallestPalindrome("seven")); // "neven"
 
     Solution2119 solution2119 = new Solution2119();
-    System.out.println(solution2119.isSameAfterReversals(526)); // true
-    System.out.println(solution2119.isSameAfterReversals(1800)); // false
-    System.out.println(solution2119.isSameAfterReversals(526)); // true
+    //System.out.println(solution2119.isSameAfterReversals(526)); // true
+    //System.out.println(solution2119.isSameAfterReversals(1800)); // false
+    //System.out.println(solution2119.isSameAfterReversals(526)); // true
+
+    Solution2185 solution2185 = new Solution2185();
+    //System.out.println(solution2185.prefixCount(new String[]{"pay","attention","practice","attend"}, "at")); // 2
+    //System.out.println(solution2185.prefixCount(new String[]{"leetcode","win","loops","success"}, "code")); // 0
+
+    Solution1979 solution1979 = new Solution1979();
+    System.out.println(solution1979.findGCD(new int[]{2,5,6,9,10})); //2
+    System.out.println(solution1979.findGCD(new int[]{7,5,6,8,3})); //1
+    System.out.println(solution1979.findGCD(new int[]{3,3})); //3
   }
 }
