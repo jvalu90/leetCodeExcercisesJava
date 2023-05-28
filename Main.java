@@ -477,8 +477,12 @@ class Main {
     //System.out.println(solution2185.prefixCount(new String[]{"leetcode","win","loops","success"}, "code")); // 0
 
     Solution1979 solution1979 = new Solution1979();
-    System.out.println(solution1979.findGCD(new int[]{2,5,6,9,10})); //2
-    System.out.println(solution1979.findGCD(new int[]{7,5,6,8,3})); //1
-    System.out.println(solution1979.findGCD(new int[]{3,3})); //3
+    //System.out.println(solution1979.findGCD(new int[]{2,5,6,9,10})); //2
+    //System.out.println(solution1979.findGCD(new int[]{7,5,6,8,3})); //1
+    //System.out.println(solution1979.findGCD(new int[]{3,3})); //3
+
+    Solution2710 solution2710 = new Solution2710();
+    System.out.println(solution2710.removeTrailingZeros("51230100")); // "512301"
+    System.out.println(solution2710.removeTrailingZeros("123")); // "123"
   }
 }
