@@ -482,7 +482,11 @@ class Main {
     //System.out.println(solution1979.findGCD(new int[]{3,3})); //3
 
     Solution2710 solution2710 = new Solution2710();
-    System.out.println(solution2710.removeTrailingZeros("51230100")); // "512301"
-    System.out.println(solution2710.removeTrailingZeros("123")); // "123"
+    //System.out.println(solution2710.removeTrailingZeros("51230100")); // "512301"
+    //System.out.println(solution2710.removeTrailingZeros("123")); // "123"
+
+    Solution1295 solution1295 = new Solution1295();
+    System.out.println(solution1295.findNumbers(new int[]{12,345,2,6,7896})); //2
+    System.out.println(solution1295.findNumbers(new int[]{555,901,482,1771})); //1
   }
 }
