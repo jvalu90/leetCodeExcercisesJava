@@ -79,66 +79,66 @@ class Main {
     //System.out.println(solution2236.checkTree(new TreeNode(5, new TreeNode(3), new TreeNode(1)))); //false
     
     //Solution 1431
-    Solution1431 solution1431 = new Solution1431();
+    //Solution1431 solution1431 = new Solution1431();
     //System.out.println(solution1431.kidsWithCandies(new int[]{2,3,5,1,3}, 3)); //[true,true,true,false,true] 
     //System.out.println(solution1431.kidsWithCandies(new int[]{4,2,1,1,2}, 1)); //[true,false,false,false,false] 
     //System.out.println(solution1431.kidsWithCandies(new int[]{12,1,12}, 10)); //[true,false,true]
     
     //Solution 1379
-    Solution1379 solution1379 = new Solution1379();
+    //Solution1379 solution1379 = new Solution1379();
 
     //Solution 1281
-    Solution1281 solution1281 = new Solution1281();
+    //Solution1281 solution1281 = new Solution1281();
     //System.out.println(solution1281.subtractProductAndSum(234)); //15
     //System.out.println(solution1281.subtractProductAndSum(4421)); //21
     
     //Solution 1365
-    Solution1365 solution1365 = new Solution1365();
+    //Solution1365 solution1365 = new Solution1365();
     //System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{8,1,2,2,3})); // [4,0,1,1,3]
     //System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{6,5,4,8})); // [2,1,0,3]
     //System.out.println(solution1365.smallerNumbersThanCurrent(new int[]{7,7,7,7})); // [0,0,0,0]
 
     //Solution 2469
-    Solution2469 solution2469 = new Solution2469();
+    //Solution2469 solution2469 = new Solution2469();
     //System.out.println(solution2469.convertTemperature(36.50)); // [309.65000,97.70000]
     //System.out.println(solution2469.convertTemperature(122.11)); // [395.26000,251.79800]
 
     //Solution 1678
-    Solution1678 solution1678 = new Solution1678();
+    //Solution1678 solution1678 = new Solution1678();
     //System.out.println(solution1678.interpret("G()(al)")); // "Goal"
     //System.out.println(solution1678.interpret("G()()()()(al)")); // "Gooooal"
     //System.out.println(solution1678.interpret("(al)G(al)()()G")); // "alGalooG"
     
     //Solution 1720
-    Solution1720 solution1720 = new Solution1720();
+    //Solution1720 solution1720 = new Solution1720();
     //System.out.println(solution1720.decode(new int[]{1,2,3}, 1)); // [1,0,2,1]
     //System.out.println(solution1720.decode(new int[]{6,2,7,3}, 4)); // [4,2,0,7,4]
     
     //Solution 1389
-    Solution1389 solution1389 = new Solution1389();
+    //Solution1389 solution1389 = new Solution1389();
     //System.out.println(solution1389.createTargetArray(new int[]{0,1,2,3,4}, new int[]{0,1,2,2,1})); // [0,4,1,3,2]
     //System.out.println(solution1389.createTargetArray(new int[]{1,2,3,4,0}, new int[]{0,1,2,3,0})); // [0,1,2,3,4]
     //System.out.println(solution1389.createTargetArray(new int[]{1}, new int[]{0})); // [1]
 
     //Solution 1313
-    Solution1313 solution1313 = new Solution1313();
+    //Solution1313 solution1313 = new Solution1313();
     //System.out.println(solution1313.decompressRLElist(new int[]{1,2,3,4})); // [2,4,4,4]
     //System.out.println(solution1313.decompressRLElist(new int[]{1,1,2,3})); // [1,3,3]
 
     //Solutionm 1528
-    Solution1528 solution1528 = new Solution1528();
+    //Solution1528 solution1528 = new Solution1528();
     //System.out.println(solution1528.restoreString("codeleet", new int[]{4,5,6,7,0,2,1,3})); // "leetcode"
     //System.out.println(solution1528.restoreString("abc", new int[]{0,1,2})); // "abc"
 
     //Solution 938
 
     //Solution 2194
-    Solution2194 solution2194 = new Solution2194();
+    //Solution2194 solution2194 = new Solution2194();
     //System.out.println(solution2194.cellsInRange("K1:L2")); // ["K1","K2","L1","L2"]
     //System.out.println(solution2194.cellsInRange("A1:F1")); // ["A1","B1","C1","D1","E1","F1"]
 
     //Solution 1656
-    OrderedStream os = new OrderedStream(5);
+    //OrderedStream os = new OrderedStream(5);
     //System.out.println(os.insert(3, "ccccc"));
     //System.out.println(os.insert(1, "aaaaa"));
     //System.out.println(os.insert(2, "bbbbb"));
@@ -146,45 +146,45 @@ class Main {
     //System.out.println(os.insert(4, "ddddd"));    
 
     //Solution 1342
-    Solution1342 solution1342 = new Solution1342();
+    //Solution1342 solution1342 = new Solution1342();
     //System.out.println(solution1342.numberOfSteps(14)); // 6
     //System.out.println(solution1342.numberOfSteps(8)); // 4
     //System.out.println(solution1342.numberOfSteps(123)); // 12
 
     //Solution 1221
-    Solution1221 solution1221 = new Solution1221();
+    //Solution1221 solution1221 = new Solution1221();
     //System.out.println(solution1221.balancedStringSplit("RLRRLLRLRL")); // 4
     //System.out.println(solution1221.balancedStringSplit("RLRRRLLRLL")); // 2
     //System.out.println(solution1221.balancedStringSplit("LLLLRRRR")); // 1
 
     //Solution 2325
-    Solution2325 solution2325 = new Solution2325();
+    //Solution2325 solution2325 = new Solution2325();
     //System.out.println(solution2325.decodeMessage("the quick brown fox jumps over the lazy dog", "vkbs bs t suepuv") ); // "this is a secret"
     //System.out.println(solution2325.decodeMessage("eljuxhpwnyrdgtqkviszcfmabo", "zwx hnfx lqantp mnoeius ycgk vcnjrdb") ); // "the five boxing wizards jump quickly"
 
     //Solution 1486
-    Solution1486 solution1486 = new Solution1486();
+    //Solution1486 solution1486 = new Solution1486();
     //System.out.println(solution1486.xorOperation(5, 0)); // 8
     //System.out.println(solution1486.xorOperation(4, 3)); // 8
 
     //Solutiuon 1859
-    Solution1859 solution1859 = new Solution1859();
+    //Solution1859 solution1859 = new Solution1859();
     //System.out.println(solution1859.sortSentence("is2 sentence4 This1 a3")); // "This is a sentence"
     //System.out.println(solution1859.sortSentence("Myself2 Me1 I4 and3")); // "Me Myself and I"
 
     //Solution 2535
-    Solution2535 solution2535 = new Solution2535();
+    //Solution2535 solution2535 = new Solution2535();
     //System.out.println(solution2535.differenceOfSum(new int[]{1,15,6,3})); // 9
     //System.out.println(solution2535.differenceOfSum(new int[]{1,2,3,4})); // 0
 
     //Solution 2520
-    Solution2520 solution2520 = new Solution2520();
+    //Solution2520 solution2520 = new Solution2520();
     //System.out.println(solution2520.countDigits(7)); //1
     //System.out.println(solution2520.countDigits(121)); //2
     //System.out.println(solution2520.countDigits(1248)); //4
 
     //Solution 1773
-    Solution1773 solution1773 = new Solution1773();
+    /*Solution1773 solution1773 = new Solution1773();
     List<List<String>> listOne = new ArrayList<>(List.of(
                 new ArrayList<>(List.of("phone","blue","pixel")),
                 new ArrayList<>(List.of("computer","silver","lenovo")),
@@ -486,7 +486,12 @@ class Main {
     //System.out.println(solution2710.removeTrailingZeros("123")); // "123"
 
     Solution1295 solution1295 = new Solution1295();
-    System.out.println(solution1295.findNumbers(new int[]{12,345,2,6,7896})); //2
-    System.out.println(solution1295.findNumbers(new int[]{555,901,482,1771})); //1
+    //System.out.println(solution1295.findNumbers(new int[]{12,345,2,6,7896})); //2
+    //System.out.println(solution1295.findNumbers(new int[]{555,901,482,1771})); //1
+    */
+
+    Solution1837 solution1837 = new Solution1837();
+    System.out.println(solution1837.sumBase(34, 6)); //9
+    System.out.println(solution1837.sumBase(10, 10)); //1
   }
 }
