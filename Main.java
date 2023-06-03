@@ -490,8 +490,12 @@ class Main {
     //System.out.println(solution1295.findNumbers(new int[]{555,901,482,1771})); //1
     */
 
-    Solution1837 solution1837 = new Solution1837();
-    System.out.println(solution1837.sumBase(34, 6)); //9
-    System.out.println(solution1837.sumBase(10, 10)); //1
+    //Solution1837 solution1837 = new Solution1837();
+    //System.out.println(solution1837.sumBase(34, 6)); //9
+    //System.out.println(solution1837.sumBase(10, 10)); //1
+
+    Solution2670 solution2670 = new Solution2670;
+    System.out.println(solution2670.distinctDifferenceArray(new int[]{1,2,3,4,5})); //[-3,-1,1,3,5]
+    System.put.println(solution2670.distinctDifferenceArray(new int[]{3,2,3,4,2})); //[-2,-1,0,2,3]
   }
 }
