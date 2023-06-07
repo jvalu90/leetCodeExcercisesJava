@@ -494,11 +494,16 @@ class Main {
     //System.out.println(solution1837.sumBase(34, 6)); //9
     //System.out.println(solution1837.sumBase(10, 10)); //1
 
-    Solution2670 solution2670 = new Solution2670();
-    System.out.println(solution2670.distinctDifferenceArray(new int[]{1,2,3,4,5})); //[-3,-1,1,3,5]
-    System.out.println(solution2670.distinctDifferenceArray(new int[]{3,2,3,4,2})); //[-2,-1,0,2,3]
+    //Solution2670 solution2670 = new Solution2670();
+    //System.out.println(solution2670.distinctDifferenceArray(new int[]{1,2,3,4,5})); //[-3,-1,1,3,5]
+    //System.out.println(solution2670.distinctDifferenceArray(new int[]{3,2,3,4,2})); //[-2,-1,0,2,3]
 
-    Solution344 solution344 = new Solution344();
-    solution344.reverseString(new char[]{'h','e','l','l','o'}); // ["o","l","l","e","h"]
+    //Solution344 solution344 = new Solution344();
+    //solution344.reverseString(new char[]{'h','e','l','l','o'}); // ["o","l","l","e","h"]
+
+    Solution1304 solution1304 = new Solution1304();
+    System.out.println(solution1304.sumZero(5));
+    System.out.println(solution1304.sumZero(3));
+    System.out.println(solution1304.sumZero(1));
   }
 }
