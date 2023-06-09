@@ -501,9 +501,13 @@ class Main {
     //Solution344 solution344 = new Solution344();
     //solution344.reverseString(new char[]{'h','e','l','l','o'}); // ["o","l","l","e","h"]
 
-    Solution1304 solution1304 = new Solution1304();
-    System.out.println(solution1304.sumZero(5));
-    System.out.println(solution1304.sumZero(3));
-    System.out.println(solution1304.sumZero(1));
+    //Solution1304 solution1304 = new Solution1304();
+    //System.out.println(solution1304.sumZero(5));
+    //System.out.println(solution1304.sumZero(3));
+    //System.out.println(solution1304.sumZero(1));
+
+    Solution1370 solution1370 = new Solution1370();
+    System.out.println(solution1370.sortString("aaaabbbbcccc")); // "abccbaabccba"
+    System.out.println(solution1370.sortString("rat")); // "art"
   }
 }
