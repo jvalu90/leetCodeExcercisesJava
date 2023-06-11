@@ -506,8 +506,14 @@ class Main {
     //System.out.println(solution1304.sumZero(3));
     //System.out.println(solution1304.sumZero(1));
 
-    Solution1370 solution1370 = new Solution1370();
-    System.out.println(solution1370.sortString("aaaabbbbcccc")); // "abccbaabccba"
-    System.out.println(solution1370.sortString("rat")); // "art"
+    //Solution1370 solution1370 = new Solution1370();
+    //System.out.println(solution1370.sortString("aaaabbbbcccc")); // "abccbaabccba"
+    //System.out.println(solution1370.sortString("rat")); // "art"
+
+    Solution2733 solution2733 = new Solution2733();
+    System.out.println(solution2733.findNonMinOrMax(new int[]{3,2,1,4})); // 2
+    System.out.println(solution2733.findNonMinOrMax(new int[]{1,2})); // -1
+    System.out.println(solution2733.findNonMinOrMax(new int[]{2,1,3})); // 2
+    System.out.println(solution2733.findNonMinOrMax(new int[]{3,30,24})); // 24
   }
 }
