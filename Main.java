@@ -510,10 +510,19 @@ class Main {
     //System.out.println(solution1370.sortString("aaaabbbbcccc")); // "abccbaabccba"
     //System.out.println(solution1370.sortString("rat")); // "art"
 
-    Solution2733 solution2733 = new Solution2733();
-    System.out.println(solution2733.findNonMinOrMax(new int[]{3,2,1,4})); // 2
-    System.out.println(solution2733.findNonMinOrMax(new int[]{1,2})); // -1
-    System.out.println(solution2733.findNonMinOrMax(new int[]{2,1,3})); // 2
-    System.out.println(solution2733.findNonMinOrMax(new int[]{3,30,24})); // 24
+    //Solution2733 solution2733 = new Solution2733();
+    //System.out.println(solution2733.findNonMinOrMax(new int[]{3,2,1,4})); // 2
+    //System.out.println(solution2733.findNonMinOrMax(new int[]{1,2})); // -1
+    //System.out.println(solution2733.findNonMinOrMax(new int[]{2,1,3})); // 2
+    //System.out.println(solution2733.findNonMinOrMax(new int[]{3,30,24})); // 24
+
+    //Solution1941 solution1941 = new Solution1941();
+    //System.out.println(solution1941.areOccurrencesEqual("abacbc")); // true
+    //System.out.println(solution1941.areOccurrencesEqual("aaabb")); // false
+
+    Solution1748 solution1748 = new Solution1748();
+    System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,2})); // 4
+    System.out.println(solution1748.sumOfUnique(new int[]{1,1,1,1,1})); // 0
+    System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,4,5})); // 15
   }
 }
