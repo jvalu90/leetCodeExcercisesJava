@@ -520,9 +520,17 @@ class Main {
     //System.out.println(solution1941.areOccurrencesEqual("abacbc")); // true
     //System.out.println(solution1941.areOccurrencesEqual("aaabb")); // false
 
-    Solution1748 solution1748 = new Solution1748();
-    System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,2})); // 4
-    System.out.println(solution1748.sumOfUnique(new int[]{1,1,1,1,1})); // 0
-    System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,4,5})); // 15
+    //Solution1748 solution1748 = new Solution1748();
+    //System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,2})); // 4
+    //System.out.println(solution1748.sumOfUnique(new int[]{1,1,1,1,1})); // 0
+    //System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,4,5})); // 15
+
+    Solution1475 solution1475 = new Solution1475();
+    printIntArray(solution1475.finalPrices(new int[]{8,4,6,2,3})); // [4,2,4,2,3]
+    printIntArray(solution1475.finalPrices(new int[]{1,2,3,4,5})); // [1,2,3,4,5]
+  }
+  
+  private static void printIntArray(int[] array) {
+      System.out.println(Arrays.toString(array));
   }
 }
