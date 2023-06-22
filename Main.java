@@ -525,9 +525,32 @@ class Main {
     //System.out.println(solution1748.sumOfUnique(new int[]{1,1,1,1,1})); // 0
     //System.out.println(solution1748.sumOfUnique(new int[]{1,2,3,4,5})); // 15
 
-    Solution1475 solution1475 = new Solution1475();
-    printIntArray(solution1475.finalPrices(new int[]{8,4,6,2,3})); // [4,2,4,2,3]
-    printIntArray(solution1475.finalPrices(new int[]{1,2,3,4,5})); // [1,2,3,4,5]
+    //Solution1475 solution1475 = new Solution1475();
+    //printIntArray(solution1475.finalPrices(new int[]{8,4,6,2,3})); // [4,2,4,2,3]
+    //printIntArray(solution1475.finalPrices(new int[]{1,2,3,4,5})); // [1,2,3,4,5]
+
+    //Solution1332 solution1332 = new Solution1332();
+    //printInt(solution1332.removePalindromeSub("ababa")); //1
+    //printInt(solution1332.removePalindromeSub("abb")); //2
+    //printInt(solution1332.removePalindromeSub("baabb")); //2
+
+    //Solution961 solution961 = new Solution961();
+    //printInt(solution961.repeatedNTimes(new int[]{1,2,3,3})); //3
+    //printInt(solution961.repeatedNTimes(new int[]{2,1,2,5,3,2})); //2
+    //printInt(solution961.repeatedNTimes(new int[]{5,1,5,2,5,3,5,4})); //5
+
+    Solution2643 solution2643 = new Solution2643();
+    printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,1},{1,0}})); // [0,1]
+    printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0,0},{0,1,1}})); // [1,2]
+    printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0},{1,1},{0,0}})); // [1,2]
+  }
+
+  private static void printString(String word) {
+    System.out.println(word);
+  }
+
+  private static void printInt(Integer integer) {
+    System.out.println(integer);
   }
   
   private static void printIntArray(int[] array) {
