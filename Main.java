@@ -539,10 +539,14 @@ class Main {
     //printInt(solution961.repeatedNTimes(new int[]{2,1,2,5,3,2})); //2
     //printInt(solution961.repeatedNTimes(new int[]{5,1,5,2,5,3,5,4})); //5
 
-    Solution2643 solution2643 = new Solution2643();
-    printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,1},{1,0}})); // [0,1]
-    printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0,0},{0,1,1}})); // [1,2]
-    printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0},{1,1},{0,0}})); // [1,2]
+    //Solution2643 solution2643 = new Solution2643();
+    //printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,1},{1,0}})); // [0,1]
+    //printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0,0},{0,1,1}})); // [1,2]
+    //printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0},{1,1},{0,0}})); // [1,2]
+
+    Solution338 solution338 = new Solution338();
+    printIntArray(solution338.countBits(2)); // [0,1,1]
+    printIntArray(solution338.countBits(5)); // [0,1,1,2,1,2]
   }
 
   private static void printString(String word) {
