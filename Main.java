@@ -544,9 +544,14 @@ class Main {
     //printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0,0},{0,1,1}})); // [1,2]
     //printIntArray(solution2643.rowAndMaximumOnes(new int[][]{{0,0},{1,1},{0,0}})); // [1,2]
 
-    Solution338 solution338 = new Solution338();
-    printIntArray(solution338.countBits(2)); // [0,1,1]
-    printIntArray(solution338.countBits(5)); // [0,1,1,2,1,2]
+    //Solution338 solution338 = new Solution338();
+    //printIntArray(solution338.countBits(2)); // [0,1,1]
+    //printIntArray(solution338.countBits(5)); // [0,1,1,2,1,2]
+
+    Solution2744 solution2744 = new Solution2744();
+    printInt(solution2744.maximumNumberOfStringPairs(new String[]{"cd","ac","dc","ca","zz"})); //2 
+    printInt(solution2744.maximumNumberOfStringPairs(new String[]{"ab","ba","cc"})); //1 
+    printInt(solution2744.maximumNumberOfStringPairs(new String[]{"aa","ab"})); //0 
   }
 
   private static void printString(String word) {
