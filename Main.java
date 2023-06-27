@@ -548,10 +548,15 @@ class Main {
     //printIntArray(solution338.countBits(2)); // [0,1,1]
     //printIntArray(solution338.countBits(5)); // [0,1,1,2,1,2]
 
-    Solution2744 solution2744 = new Solution2744();
-    printInt(solution2744.maximumNumberOfStringPairs(new String[]{"cd","ac","dc","ca","zz"})); //2 
-    printInt(solution2744.maximumNumberOfStringPairs(new String[]{"ab","ba","cc"})); //1 
-    printInt(solution2744.maximumNumberOfStringPairs(new String[]{"aa","ab"})); //0 
+    //Solution2744 solution2744 = new Solution2744();
+    //printInt(solution2744.maximumNumberOfStringPairs(new String[]{"cd","ac","dc","ca","zz"})); //2 
+    //printInt(solution2744.maximumNumberOfStringPairs(new String[]{"ab","ba","cc"})); //1 
+    //printInt(solution2744.maximumNumberOfStringPairs(new String[]{"aa","ab"})); //0 
+
+    Solution2089 solution2089 = new Solution2089();
+    System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 2)); // [1,2]
+    System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 3)); // [3]
+    System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 5)); // [4]
   }
 
   private static void printString(String word) {
