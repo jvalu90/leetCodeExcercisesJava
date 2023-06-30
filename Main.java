@@ -553,10 +553,14 @@ class Main {
     //printInt(solution2744.maximumNumberOfStringPairs(new String[]{"ab","ba","cc"})); //1 
     //printInt(solution2744.maximumNumberOfStringPairs(new String[]{"aa","ab"})); //0 
 
-    Solution2089 solution2089 = new Solution2089();
-    System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 2)); // [1,2]
-    System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 3)); // [3]
-    System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 5)); // [4]
+    //Solution2089 solution2089 = new Solution2089();
+    //System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 2)); // [1,2]
+    //System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 3)); // [3]
+    //System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 5)); // [4]
+
+    Solution1450 solution1450 = new Solution1450();
+    printInt(solution1450.busyStudent(new int[]{1,2,3}, new int[]{3,2,7}, 4)); //1
+    printInt(solution1450.busyStudent(new int[]{4}, new int[]{4}, 4))
   }
 
   private static void printString(String word) {
