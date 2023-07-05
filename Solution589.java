@@ -5,7 +5,7 @@ Given the root of an n-ary tree, return the preorder traversal of its nodes' val
 
 Nary-Tree input serialization is represented in their level order traversal. Each group of children is separated by the null value (See examples)
 */
-
+/*
 class Solution589 {
   public void req(Node root, List<Integer> tree)
     {
@@ -22,3 +22,5 @@ class Solution589 {
         return tree;
     }
 }
+
+*/

@@ -558,9 +558,19 @@ class Main {
     //System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 3)); // [3]
     //System.out.println(solution2089.targetIndices(new int[]{1,2,5,2,3}, 5)); // [4]
 
-    Solution1450 solution1450 = new Solution1450();
-    printInt(solution1450.busyStudent(new int[]{1,2,3}, new int[]{3,2,7}, 4)); //1
-    printInt(solution1450.busyStudent(new int[]{4}, new int[]{4}, 4))
+    //Solution1450 solution1450 = new Solution1450();
+    //printInt(solution1450.busyStudent(new int[]{1,2,3}, new int[]{3,2,7}, 4)); //1
+    //printInt(solution1450.busyStudent(new int[]{4}, new int[]{4}, 4))
+
+    //Solution1051 solution1051 = new Solution1051();
+    //printInt(solution1051.heightChecker(new int[]{1,1,4,2,1,3})); //3
+    //printInt(solution1051.heightChecker(new int[]{5,1,2,3,4})); //5
+    //printInt(solution1051.heightChecker(new int[]{1,2,3,4,5})); //0
+
+    Solution2341 solution2341 = new Solution2341();
+    printIntArray(solution2341.numberOfPairs(new int[]{1,3,2,1,3,2,2})); //[3,1]
+    printIntArray(solution2341.numberOfPairs(new int[]{1,1})); //[1,0]
+    printIntArray(solution2341.numberOfPairs(new int[]{0})); //[0,1]
   }
 
   private static void printString(String word) {
