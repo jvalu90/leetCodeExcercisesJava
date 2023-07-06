@@ -567,10 +567,14 @@ class Main {
     //printInt(solution1051.heightChecker(new int[]{5,1,2,3,4})); //5
     //printInt(solution1051.heightChecker(new int[]{1,2,3,4,5})); //0
 
-    Solution2341 solution2341 = new Solution2341();
-    printIntArray(solution2341.numberOfPairs(new int[]{1,3,2,1,3,2,2})); //[3,1]
-    printIntArray(solution2341.numberOfPairs(new int[]{1,1})); //[1,0]
-    printIntArray(solution2341.numberOfPairs(new int[]{0})); //[0,1]
+    //Solution2341 solution2341 = new Solution2341();
+    //printIntArray(solution2341.numberOfPairs(new int[]{1,3,2,1,3,2,2})); //[3,1]
+    //printIntArray(solution2341.numberOfPairs(new int[]{1,1})); //[1,0]
+    //printIntArray(solution2341.numberOfPairs(new int[]{0})); //[0,1]
+
+    Solution905 solution905 = new Solution905();
+    printIntArray(solution905.sortArrayByParity(new int[]{3,1,2,4})); //[2,4,3,1]
+    printIntArray(solution905.sortArrayByParity(new int[]{0})); //[0]
   }
 
   private static void printString(String word) {
