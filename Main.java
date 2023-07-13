@@ -576,8 +576,12 @@ class Main {
     //printIntArray(solution905.sortArrayByParity(new int[]{3,1,2,4})); //[2,4,3,1]
     //printIntArray(solution905.sortArrayByParity(new int[]{0})); //[0]
 
-    Solution2363 solution2363 = new Solution2363();
-    System.out.println(solution2363.mergeSimilarItems(new int[][]{{1,1},{4,5},{3,8}, new int[][]{{3,1},{1,5})); //[[1,6],[3,9],[4,5]]
+    //Solution2363 solution2363 = new Solution2363();
+    //System.out.println(solution2363.mergeSimilarItems(new int[][]{{1,1},{4,5},{3,8}, new int[][]{{3,1},{1,5})); //[[1,6],[3,9],[4,5]]
+
+    Solution2769 solution2769 = new Solution2769();
+    printInt(solution2769.heMaximumAchievableX(4,1)); //6
+    printInt(solution2769.heMaximumAchievableX(3,2)); //7
   }
 
   private static void printString(String word) {
