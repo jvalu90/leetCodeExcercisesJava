@@ -579,9 +579,13 @@ class Main {
     //Solution2363 solution2363 = new Solution2363();
     //System.out.println(solution2363.mergeSimilarItems(new int[][]{{1,1},{4,5},{3,8}, new int[][]{{3,1},{1,5})); //[[1,6],[3,9],[4,5]]
 
-    Solution2769 solution2769 = new Solution2769();
-    printInt(solution2769.heMaximumAchievableX(4,1)); //6
-    printInt(solution2769.heMaximumAchievableX(3,2)); //7
+    //Solution2769 solution2769 = new Solution2769();
+    //printInt(solution2769.heMaximumAchievableX(4,1)); //6
+    //printInt(solution2769.heMaximumAchievableX(3,2)); //7
+
+    Solution657 solution657 = new Solution657();
+    System.out.println(solution657.judgeCircle("UD")); //True
+    System.out.println(solution657.judgeCircle("LL")); //True
   }
 
   private static void printString(String word) {
