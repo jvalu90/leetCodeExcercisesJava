@@ -583,9 +583,13 @@ class Main {
     //printInt(solution2769.heMaximumAchievableX(4,1)); //6
     //printInt(solution2769.heMaximumAchievableX(3,2)); //7
 
-    Solution657 solution657 = new Solution657();
-    System.out.println(solution657.judgeCircle("UD")); //True
-    System.out.println(solution657.judgeCircle("LL")); //True
+    //Solution657 solution657 = new Solution657();
+    //System.out.println(solution657.judgeCircle("UD")); //True
+    //System.out.println(solution657.judgeCircle("LL")); //True
+
+    Solution2778 solution2778 = new Solution2778();
+    printInt(solution2778.sumOfSquares(new int[]{1,2,3,4})); //21
+    printInt(solution2778.sumOfSquares(new int[]{2,7,1,19,18,3})); //63
   }
 
   private static void printString(String word) {

@@ -14,6 +14,7 @@ Return a 0-indexed integer array answer of size 2 where answer[0] is the number 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
+import java.util.*;
 
 class Solution2341 {
   public int[] numberOfPairs(int[] nums) {
