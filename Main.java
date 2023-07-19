@@ -587,9 +587,13 @@ class Main {
     //System.out.println(solution657.judgeCircle("UD")); //True
     //System.out.println(solution657.judgeCircle("LL")); //True
 
-    Solution2778 solution2778 = new Solution2778();
-    printInt(solution2778.sumOfSquares(new int[]{1,2,3,4})); //21
-    printInt(solution2778.sumOfSquares(new int[]{2,7,1,19,18,3})); //63
+    //Solution2778 solution2778 = new Solution2778();
+    //printInt(solution2778.sumOfSquares(new int[]{1,2,3,4})); //21
+    //printInt(solution2778.sumOfSquares(new int[]{2,7,1,19,18,3})); //63
+
+    Solution461 solution461 = new Solution461();
+    printInt(solution461.hammingDistance(1, 4)); // 2
+    printInt(solution461.hammingDistance(3, 1)); // 1
   }
 
   private static void printString(String word) {
