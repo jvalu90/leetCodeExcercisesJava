@@ -591,9 +591,14 @@ class Main {
     //printInt(solution2778.sumOfSquares(new int[]{1,2,3,4})); //21
     //printInt(solution2778.sumOfSquares(new int[]{2,7,1,19,18,3})); //63
 
-    Solution461 solution461 = new Solution461();
-    printInt(solution461.hammingDistance(1, 4)); // 2
-    printInt(solution461.hammingDistance(3, 1)); // 1
+    //Solution461 solution461 = new Solution461();
+    //printInt(solution461.hammingDistance(1, 4)); // 2
+    //printInt(solution461.hammingDistance(3, 1)); // 1
+
+    Solution682 solution682 = new Solution682();
+    printInt(solution682.calPoints(new String[]{"5","2","C","D","+"})); //30
+    printInt(solution682.calPoints(new String[]{"5","-2","4","C","D","9","+","+"})); //27
+    printInt(solution682.calPoints(new String[]{"1","C"})); //0
   }
 
   private static void printString(String word) {
