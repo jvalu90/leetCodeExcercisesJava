@@ -595,10 +595,15 @@ class Main {
     //printInt(solution461.hammingDistance(1, 4)); // 2
     //printInt(solution461.hammingDistance(3, 1)); // 1
 
-    Solution682 solution682 = new Solution682();
-    printInt(solution682.calPoints(new String[]{"5","2","C","D","+"})); //30
-    printInt(solution682.calPoints(new String[]{"5","-2","4","C","D","9","+","+"})); //27
-    printInt(solution682.calPoints(new String[]{"1","C"})); //0
+    //Solution682 solution682 = new Solution682();
+    //printInt(solution682.calPoints(new String[]{"5","2","C","D","+"})); //30
+    //printInt(solution682.calPoints(new String[]{"5","-2","4","C","D","9","+","+"})); //27
+    //printInt(solution682.calPoints(new String[]{"1","C"})); //0
+
+    Solution2786 solution2786 = new Solution2786();
+    printInt(solution2786.minimizedStringLength("aaabc")); //3
+    printInt(solution2786.minimizedStringLength("cbbd")); //3
+    printInt(solution2786.minimizedStringLength("dddaaa")); //2
   }
 
   private static void printString(String word) {
