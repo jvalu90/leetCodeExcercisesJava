@@ -600,10 +600,19 @@ class Main {
     //printInt(solution682.calPoints(new String[]{"5","-2","4","C","D","9","+","+"})); //27
     //printInt(solution682.calPoints(new String[]{"1","C"})); //0
 
-    Solution2786 solution2786 = new Solution2786();
-    printInt(solution2786.minimizedStringLength("aaabc")); //3
-    printInt(solution2786.minimizedStringLength("cbbd")); //3
-    printInt(solution2786.minimizedStringLength("dddaaa")); //2
+    //Solution2786 solution2786 = new Solution2786();
+    //printInt(solution2786.minimizedStringLength("aaabc")); //3
+    //printInt(solution2786.minimizedStringLength("cbbd")); //3
+    //printInt(solution2786.minimizedStringLength("dddaaa")); //2
+
+    //Solution944 solution944 = new Solution944();
+    //printInt(solution944.minDeletionSize(new String[]{"cba","daf","ghi"})); //1
+    //printInt(solution944.minDeletionSize(new String[]{"a","b"})); //0
+    //printInt(solution944.minDeletionSize(new String[]{"zyx","wvu","tsr"})); //3
+
+    Solution2798 solution2798 = new Solution2798();
+    printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{0,1,2,3,4}, 2)); //3
+    printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{5,1,4,2,2}, 6)); //3
   }
 
   private static void printString(String word) {
