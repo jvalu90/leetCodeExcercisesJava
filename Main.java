@@ -610,9 +610,13 @@ class Main {
     //printInt(solution944.minDeletionSize(new String[]{"a","b"})); //0
     //printInt(solution944.minDeletionSize(new String[]{"zyx","wvu","tsr"})); //3
 
-    Solution2798 solution2798 = new Solution2798();
-    printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{0,1,2,3,4}, 2)); //3
-    printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{5,1,4,2,2}, 6)); //3
+    //Solution2798 solution2798 = new Solution2798();
+    //printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{0,1,2,3,4}, 2)); //3
+    //printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{5,1,4,2,2}, 6)); //3
+
+    Solution2169 solution2169 = new Solution2169();
+    printInt(solution2169.countOperations(2,3)); //3
+    printInt(solution2169.countOperations(10,10)); //3
   }
 
   private static void printString(String word) {
