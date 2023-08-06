@@ -614,9 +614,13 @@ class Main {
     //printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{0,1,2,3,4}, 2)); //3
     //printInt(solution2798.numberOfEmployeesWhoMetTarget(new int[]{5,1,4,2,2}, 6)); //3
 
-    Solution2169 solution2169 = new Solution2169();
-    printInt(solution2169.countOperations(2,3)); //3
-    printInt(solution2169.countOperations(10,10)); //3
+    //Solution2169 solution2169 = new Solution2169();
+    //printInt(solution2169.countOperations(2,3)); //3
+    //printInt(solution2169.countOperations(10,10)); //3
+
+    Solution2810 solution2810 = new Solution2810();
+    printString(solution2810.finalString("string")); // "rtsng"
+    printString(solution2810.finalString("poiinter")); // "ponter"
   }
 
   private static void printString(String word) {
