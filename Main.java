@@ -618,9 +618,13 @@ class Main {
     //printInt(solution2169.countOperations(2,3)); //3
     //printInt(solution2169.countOperations(10,10)); //3
 
-    Solution2810 solution2810 = new Solution2810();
-    printString(solution2810.finalString("string")); // "rtsng"
-    printString(solution2810.finalString("poiinter")); // "ponter"
+    //Solution2810 solution2810 = new Solution2810();
+    //printString(solution2810.finalString("string")); // "rtsng"
+    //printString(solution2810.finalString("poiinter")); // "ponter"
+
+    Solution2278 solution2278 = new Solution2278(); 
+    printInt(solution2278.percentageLetter("foobar", "o")); //33
+    printInt(solution2278.percentageLetter("jjjj", "a")); //0
   }
 
   private static void printString(String word) {
