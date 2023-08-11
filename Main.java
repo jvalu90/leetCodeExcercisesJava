@@ -625,6 +625,11 @@ class Main {
     Solution2278 solution2278 = new Solution2278(); 
     printInt(solution2278.percentageLetter("foobar", "o")); //33
     printInt(solution2278.percentageLetter("jjjj", "a")); //0
+
+    Solution1207 solution1207 = new Solution1207();
+    System.out.println(solution1207.uniqueOccurrences(new int[]{1,2,2,1,1,3})); //true
+    System.out.println(solution1207.uniqueOccurrences(new int[]{1,2})); //false
+    System.out.println(solution1207.uniqueOccurrences(new int[]{-3,0,1,-3,1,1,1,-3,10,0})); //true
   }
 
   private static void printString(String word) {
