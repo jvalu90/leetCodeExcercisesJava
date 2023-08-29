@@ -635,9 +635,14 @@ class Main {
     //System.out.println(solution2351.repeatedCharacter("abccbaacz")); //c
     //System.out.println(solution2351.repeatedCharacter("abcdd")); //d
 
-    Solution2032 solution2032 = new Solution2032();
-    System.out.println(solution2032.twoOutOfThree(new int[]{1,1,3,2}, new int[]{2,3}, new int[]{3})); //[3,2]
-    System.out.println(solution2032.twoOutOfThree(new int[]{3,1}, new int[]{2,3}, new int[]{1,2})); //[2,3,1]
+    //Solution2032 solution2032 = new Solution2032();
+    //System.out.println(solution2032.twoOutOfThree(new int[]{1,1,3,2}, new int[]{2,3}, new int[]{3})); //[3,2]
+    //System.out.println(solution2032.twoOutOfThree(new int[]{3,1}, new int[]{2,3}, new int[]{1,2})); //[2,3,1]
+
+    Solution2828 solution2828 = new Solution2828();
+    System.out.println(solution2828.isAcronym(Arrays.asList("alice","bob","charlie"), "abc")); //true
+    System.out.println(solution2828.isAcronym(Arrays.asList("an","apple"), "abc")); //false
+    System.out.println(solution2828.isAcronym(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy")); //true
   }
 
   private static void printString(String word) {
