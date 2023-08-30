@@ -639,10 +639,15 @@ class Main {
     //System.out.println(solution2032.twoOutOfThree(new int[]{1,1,3,2}, new int[]{2,3}, new int[]{3})); //[3,2]
     //System.out.println(solution2032.twoOutOfThree(new int[]{3,1}, new int[]{2,3}, new int[]{1,2})); //[2,3,1]
 
-    Solution2828 solution2828 = new Solution2828();
-    System.out.println(solution2828.isAcronym(Arrays.asList("alice","bob","charlie"), "abc")); //true
-    System.out.println(solution2828.isAcronym(Arrays.asList("an","apple"), "abc")); //false
-    System.out.println(solution2828.isAcronym(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy")); //true
+    //Solution2828 solution2828 = new Solution2828();
+    //System.out.println(solution2828.isAcronym(Arrays.asList("alice","bob","charlie"), "abc")); //true
+    //System.out.println(solution2828.isAcronym(Arrays.asList("an","apple"), "abc")); //false
+    //System.out.println(solution2828.isAcronym(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy")); //true
+
+    Solution2529 solution2529 = new Solution2529();
+    printInt(solution2529.maximumCount(new int[]{-2,-1,-1,1,2,3})); //3
+    printInt(solution2529.maximumCount(new int[]{-3,-2,-1,0,0,1,2})); //3
+    printInt(solution2529.maximumCount(new int[]{5,20,66,1314})); //4
   }
 
   private static void printString(String word) {
