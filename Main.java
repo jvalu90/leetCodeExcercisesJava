@@ -644,10 +644,14 @@ class Main {
     //System.out.println(solution2828.isAcronym(Arrays.asList("an","apple"), "abc")); //false
     //System.out.println(solution2828.isAcronym(Arrays.asList("never","gonna","give","up","on","you"), "ngguoy")); //true
 
-    Solution2529 solution2529 = new Solution2529();
-    printInt(solution2529.maximumCount(new int[]{-2,-1,-1,1,2,3})); //3
-    printInt(solution2529.maximumCount(new int[]{-3,-2,-1,0,0,1,2})); //3
-    printInt(solution2529.maximumCount(new int[]{5,20,66,1314})); //4
+    //Solution2529 solution2529 = new Solution2529();
+    //printInt(solution2529.maximumCount(new int[]{-2,-1,-1,1,2,3})); //3
+    //printInt(solution2529.maximumCount(new int[]{-3,-2,-1,0,0,1,2})); //3
+    //printInt(solution2529.maximumCount(new int[]{5,20,66,1314})); //4
+
+    Solution2843 solution2843 = new Solution2843();
+    printInt(solution2843.countSymmetricIntegers(1,100)); // 9
+    printInt(solution2843.countSymmetricIntegers(1200,1230)); // 3
   }
 
   private static void printString(String word) {
