@@ -28,7 +28,7 @@ class Solution2496 {
     char[] chars = str.toCharArray();
 
     for (char c : chars) {
-      if ((int) c >= 97 && (int) c <= 122) return false;
+      if (c >= 'a' && c <= 'z') return false;
     }
 
     return true;
